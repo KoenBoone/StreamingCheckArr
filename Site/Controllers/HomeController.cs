@@ -1,8 +1,8 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using StreamingCheckArr.Models;
+using StreamingCheckArr.Site.Models;
 
-namespace StreamingCheckArr.Controllers
+namespace StreamingCheckArr.Site.Controllers
 {
     public class HomeController : Controller
     {

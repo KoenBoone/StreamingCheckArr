@@ -1,4 +1,4 @@
-namespace StreamingCheckArr.Models
+namespace StreamingCheckArr.Site.Models
 {
     public class ErrorViewModel
     {
