@@ -26,7 +26,7 @@ namespace StreamingCheckArr.Core {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
-        [global::System.Configuration.DefaultSettingValueAttribute("aaa")]
+        [global::System.Configuration.DefaultSettingValueAttribute("aaab")]
         public string SonarrUrl {
             get {
                 return ((string)(this["SonarrUrl"]));
