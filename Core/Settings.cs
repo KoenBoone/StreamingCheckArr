@@ -1,23 +1,35 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Linq;
-using System.Runtime.InteropServices.Marshalling;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.Extensions.Configuration;
 
 namespace Core
 {
-    internal class Settings
+    public class Settings
     {
-        Configuration config = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
+        private IConfigurationRoot config;
 
-        //get all values from app.config
-        public string GetSetting(string key)
+        public string SonarrUrl { get; private set; }
+        public string RadarrUrl { get; private set; }
+
+        public Settings()
         {
-            return config.AppSettings.Settings[key].Value;
+            //check if the appsettings.json file exists, and if not, create it by copying the appsettings.json.example file
+            if (!File.Exists("appsettings.json"))
+            {
+                //File.Copy("appsettings.json.example", "appsettings.json");
+                throw new FileNotFoundException("appsettings.json file not found. Please create it by copying the appsettings.json.example file.");
+            }
+
+            var builder = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
+
+            config = builder.Build();
+
+            var a = config.GetSection("SonarrUrl");
         }
 
-
+        public IConfigurationRoot getConfig()
+        {
+            return config;
+        }
     }
 }

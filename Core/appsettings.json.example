@@ -1,0 +1,12 @@
+﻿{
+  "AppSettings": {
+    "SonarrUrl": "http://localhost:8989",
+    "RadarrUrl": "http://localhost:7878",
+    "SonarrApi": "APIKEY",
+    "RadarrApi": "APIKEY",
+    "TraktClientId": "CLIENTID",
+    "TraktClientSecret": "CLIENTSECRET",
+    "TMDBApi": "APIKEY",
+    "TMDBToken": "TOKEN" 
+  }
+}
