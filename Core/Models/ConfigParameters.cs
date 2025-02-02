@@ -10,6 +10,7 @@ namespace StreamingCheckArr.Core.Models
 {
     public class configParameters
     {
+        public string ConnectionString { get; private set; }
         public string SonarrUrl { get; private set; }
         public string RadarrUrl { get; private set; }
         public string SonarrApiKey { get; private set; }
@@ -26,6 +27,7 @@ namespace StreamingCheckArr.Core.Models
             Settings settings = new Settings();
             IConfigurationRoot iConf = settings.getConfig();
 
+            ConnectionString = iConf.GetSection("ConnectionStrings:DefaultConnection").Value;
             SonarrUrl = iConf.GetSection("AppSettings:SonarrUrl").Value;
             RadarrUrl = iConf.GetSection("AppSettings:RadarrUrl").Value;
             SonarrApiKey = iConf.GetSection("AppSettings:SonarrApi").Value;

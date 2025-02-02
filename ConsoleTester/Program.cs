@@ -23,6 +23,7 @@ catch (Exception e)
 cp = new configParameters();
 
 //write all the config settings to the console
+Console.WriteLine(cp.ConnectionString);
 Console.WriteLine(cp.SonarrUrl);
 Console.WriteLine(cp.RadarrUrl);
 Console.WriteLine(cp.SonarrApiKey);
