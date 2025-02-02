@@ -7,6 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="..\Core\appsettings.json" Link="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\Core\appsettings.json.example" Link="appsettings.json.example" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Core\StreamingCheckArr.Core.csproj" />
   </ItemGroup>
 

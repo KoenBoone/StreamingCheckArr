@@ -2,14 +2,15 @@
 
 using Core;
 using Microsoft.Extensions.Configuration;
+using StreamingCheckArr.Core.Models;
 
 Console.WriteLine("Hello, World!");
 
-Settings settings;
+configParameters cp;
 
 try
 {
-    settings = new Settings();
+    cp = new configParameters();
 }
 catch (Exception e)
 {
@@ -19,20 +20,17 @@ catch (Exception e)
     Environment.Exit(0);
 }
 
-settings = new Settings();
-
-var config = settings.getConfig();
+cp = new configParameters();
 
 //write all the config settings to the console
-foreach (var item in config.AsEnumerable())
-{
-    Console.WriteLine(item);
-}
-
-//write the sonarrurl to the console
-Console.WriteLine("test:" + config["AppSettings:SonarrUrl"]);
-
-//write the radarrurl to the console
-Console.WriteLine("test:" + config["AppSettings:RadarrUrl"]);
+Console.WriteLine(cp.SonarrUrl);
+Console.WriteLine(cp.RadarrUrl);
+Console.WriteLine(cp.SonarrApiKey);
+Console.WriteLine(cp.RadarrApiKey);
+Console.WriteLine(cp.TraktClientId);
+Console.WriteLine(cp.TraktClientSecret);
+Console.WriteLine(cp.TMDBApi);
+Console.WriteLine(cp.TMDBToken);
+Console.WriteLine(cp.CountryCode);
 
 Console.ReadLine();

@@ -8,6 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="..\Core\appsettings.json" Link="appsettings.json" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Core\StreamingCheckArr.Core.csproj" />
   </ItemGroup>
 

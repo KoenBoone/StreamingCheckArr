@@ -1,5 +1,7 @@
 using System.Diagnostics;
+using Core;
 using Microsoft.AspNetCore.Mvc;
+using StreamingCheckArr.Core.Models;
 using StreamingCheckArr.Site.Models;
 
 namespace StreamingCheckArr.Site.Controllers
@@ -15,6 +17,18 @@ namespace StreamingCheckArr.Site.Controllers
 
         public IActionResult Index()
         {
+            configParameters cp = new configParameters();
+
+            ViewBag.SonarrUrl = cp.SonarrUrl;
+            ViewBag.RadarrUrl = cp.RadarrUrl;
+            ViewBag.SonarrApiKey = cp.SonarrApiKey;
+            ViewBag.RadarrApiKey = cp.RadarrApiKey;
+            ViewBag.TraktClientId = cp.TraktClientId;
+            ViewBag.TraktClientSecret = cp.TraktClientSecret;
+            ViewBag.TMDBApi = cp.TMDBApi;
+            ViewBag.TMDBToken = cp.TMDBToken;
+            ViewBag.CountryCode = cp.CountryCode;
+
             return View();
         }
 
