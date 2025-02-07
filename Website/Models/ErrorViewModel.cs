@@ -1,6 +1,6 @@
 using System;
 
-namespace Website.Models
+namespace StreamingCheckArr.Website.Models
 {
     public class ErrorViewModel
     {

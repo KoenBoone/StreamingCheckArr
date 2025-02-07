@@ -12,11 +12,21 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="appsettings.json.example" />
+    <Content Include="..\Core\appsettings.json" Link="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="..\Core\Data\Sonarr.json" Link="Data\Sonarr.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Data\" />
     <Folder Include="wwwroot\AdminLTE\fonts\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\Core\appsettings.json.example" Link="appsettings.json.example" />
   </ItemGroup>
 
   <ItemGroup>

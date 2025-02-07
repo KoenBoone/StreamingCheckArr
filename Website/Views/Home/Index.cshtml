@@ -1,5 +1,9 @@
-﻿@{
+﻿@using StreamingCheckArr.Core.Models
+
+@{
     ViewData["Title"] = "Home Page";
+
+    var series = ViewBag.Series;
 }
 
 
@@ -8,4 +12,27 @@
     <p>MVC Core 5</p>
     <br />
     <img src="~/imgs/home2.gif" alt="Home Page" style="box-shadow:2px; max-height:400px" />
+    <p>
+        @{
+            @ViewBag.SonarrIp @ViewBag.SonarrPort <br />
+            @ViewBag.RadarrIp @ViewBag.RadarrPort <br />
+            @ViewBag.SonarrApiKey  <br />
+            @ViewBag.RadarrApiKey  <br />
+            @ViewBag.TraktClientId <br />
+            @ViewBag.TraktClientSecret <br />
+            @ViewBag.TMDBApi  <br />
+            @ViewBag.TMDBToken <br />
+            @ViewBag.CountryCode <br />
+
+            <br />
+
+            // Display the title of each series
+            foreach (var item in series)
+            {
+                <p>@item.title</p>
+            }
+
+        }
+
+    </p>
 </div>

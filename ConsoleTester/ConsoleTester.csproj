@@ -9,9 +9,9 @@
 
   <ItemGroup>
     <Content Include="..\Core\appsettings.json" Link="appsettings.json" />
-    <Content Include="..\Core\Data\Sonarr.json" Link="Data\Sonarr.json">
+    <Resource Include="..\Core\Data\Sonarr.json" Link="Data\Sonarr.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    </Resource>
   </ItemGroup>
 
   <ItemGroup>
