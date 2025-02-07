@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamingCheckArr.ConsoleSc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTester", "ConsoleTester\ConsoleTester.csproj", "{FBD4F53F-5107-4236-A8F1-395AB9F596F1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Website", "Website\Website.csproj", "{ADB6616C-6E2A-4085-89D6-8E58929668C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +42,10 @@ Global
 		{FBD4F53F-5107-4236-A8F1-395AB9F596F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBD4F53F-5107-4236-A8F1-395AB9F596F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBD4F53F-5107-4236-A8F1-395AB9F596F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADB6616C-6E2A-4085-89D6-8E58929668C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADB6616C-6E2A-4085-89D6-8E58929668C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADB6616C-6E2A-4085-89D6-8E58929668C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADB6616C-6E2A-4085-89D6-8E58929668C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
