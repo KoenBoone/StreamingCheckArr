@@ -26,35 +26,65 @@ namespace StreamingCheckArr.Core.Models
             this.fullUrl = "http://" + this.ip + ":" + this.port + "/api/v3/";
         }
 
-        public async Task<List<SonarrSeries>> getSeries()
+        //get the series from sonarr or the series.json file, if getNew is true it will get the series from sonarr
+        public async Task<List<SonarrSeries>> getSeries(bool getNew = false)
         {
-            //get the series from sonarr
-            string url = this.fullUrl + "series";
-            url = url + "?apikey=" + this.apiKey;
-
-            HttpResponseMessage response = await httpClient.GetAsync(url);
-            response.EnsureSuccessStatusCode();
-            string responseBody = await response.Content.ReadAsStringAsync();
-
-            JsonArray series = JsonArray.Parse(responseBody).AsArray();
-
             List<SonarrSeries> seriesList = new List<SonarrSeries>();
 
-            //loop throught the series and get the title
-            foreach (var s in series)
+            //if getNew is false and the file exists, get the series from the file
+            if (!getNew && File.Exists("Data/series.json"))
             {
-                //add the series to the list
-                seriesList.Add(new SonarrSeries(
-                    s["title"]?.ToString() ?? string.Empty,
-                    s["sortTitle"]?.ToString() ?? string.Empty,
-                    s["year"]?.GetValue<int>() ?? 0,
-                    s["tvdbId"]?.GetValue<int>() ?? 0,
-                    s["tvRageId"]?.GetValue<int>() ?? 0,
-                    s["tvMazeId"]?.GetValue<int>() ?? 0,
-                    s["tmdbId"]?.GetValue<int>() ?? 0,
-                    s["imdbId"]?.ToString() ?? string.Empty,
-                    s["id"]?.GetValue<int>() ?? 0
-                ));
+                string seriesJson = File.ReadAllText("Data/series.json");
+                JsonArray series = JsonArray.Parse(seriesJson).AsArray();
+                
+                //loop throught the series and get the title
+                foreach (var s in series)
+                {
+                    //add the series to the list
+                    seriesList.Add(new SonarrSeries(
+                        s["title"]?.ToString() ?? string.Empty,
+                        s["sortTitle"]?.ToString() ?? string.Empty,
+                        s["year"]?.GetValue<int>() ?? 0,
+                        s["tvdbId"]?.GetValue<int>() ?? 0,
+                        s["tvRageId"]?.GetValue<int>() ?? 0,
+                        s["tvMazeId"]?.GetValue<int>() ?? 0,
+                        s["tmdbId"]?.GetValue<int>() ?? 0,
+                        s["imdbId"]?.ToString() ?? string.Empty,
+                        s["id"]?.GetValue<int>() ?? 0
+                    ));
+                }
+            }
+            else
+            {
+                //get the series from sonarr
+                string url = this.fullUrl + "series";
+                url = url + "?apikey=" + this.apiKey;
+
+                HttpResponseMessage response = await httpClient.GetAsync(url);
+                response.EnsureSuccessStatusCode();
+                string responseBody = await response.Content.ReadAsStringAsync();
+
+                JsonArray series = JsonArray.Parse(responseBody).AsArray();
+
+                //save the json array to a file in the Data folder relative to the app
+                File.WriteAllText("Data/series.json", series.ToString());
+
+                //loop throught the series and get the title
+                foreach (var s in series)
+                {
+                    //add the series to the list
+                    seriesList.Add(new SonarrSeries(
+                        s["title"]?.ToString() ?? string.Empty,
+                        s["sortTitle"]?.ToString() ?? string.Empty,
+                        s["year"]?.GetValue<int>() ?? 0,
+                        s["tvdbId"]?.GetValue<int>() ?? 0,
+                        s["tvRageId"]?.GetValue<int>() ?? 0,
+                        s["tvMazeId"]?.GetValue<int>() ?? 0,
+                        s["tmdbId"]?.GetValue<int>() ?? 0,
+                        s["imdbId"]?.ToString() ?? string.Empty,
+                        s["id"]?.GetValue<int>() ?? 0
+                    ));
+                }
             }
 
             return seriesList;
