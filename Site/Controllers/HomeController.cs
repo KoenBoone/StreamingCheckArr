@@ -19,8 +19,10 @@ namespace StreamingCheckArr.Site.Controllers
         {
             configParameters cp = new configParameters();
 
-            ViewBag.SonarrUrl = cp.SonarrUrl;
-            ViewBag.RadarrUrl = cp.RadarrUrl;
+            ViewBag.SonarrIp = cp.SonarrIp;
+            ViewBag.RadarrIp = cp.RadarrIp;
+            ViewBag.SonarrPort = cp.SonarrPort;
+            ViewBag.RadarrPort = cp.RadarrPort;
             ViewBag.SonarrApiKey = cp.SonarrApiKey;
             ViewBag.RadarrApiKey = cp.RadarrApiKey;
             ViewBag.TraktClientId = cp.TraktClientId;
