@@ -68,6 +68,7 @@ namespace StreamingCheckArr.Core.Models
                 //get the series from sonarr as the file is empty
                 getNew = true;
             }
+
             if (getNew)
             {
                 //get the series from sonarr
@@ -100,7 +101,13 @@ namespace StreamingCheckArr.Core.Models
                     ));
                 }
             }
+
             return seriesList;
         }
+
+        //delete a series from sonarr
+
+        //add a series to sonarr
+        
     }
 }
