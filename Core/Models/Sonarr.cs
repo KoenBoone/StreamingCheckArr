@@ -31,30 +31,44 @@ namespace StreamingCheckArr.Core.Models
         {
             List<SonarrSeries> seriesList = new List<SonarrSeries>();
 
-            //if getNew is false and the file exists, get the series from the file
-            if (!getNew && File.Exists("Data/series.json"))
+            //if getNew is false and the file exists, get the series from the file, unless it is empty
+            if (!getNew && File.Exists("Data/sonarr.json"))
             {
-                string seriesJson = File.ReadAllText("Data/series.json");
-                JsonArray series = JsonArray.Parse(seriesJson).AsArray();
-                
-                //loop throught the series and get the title
-                foreach (var s in series)
+                string seriesJson = File.ReadAllText("Data/sonarr.json");
+
+                //check if seriesJson is not a json array
+                if (seriesJson.StartsWith("["))
                 {
-                    //add the series to the list
-                    seriesList.Add(new SonarrSeries(
-                        s["title"]?.ToString() ?? string.Empty,
-                        s["sortTitle"]?.ToString() ?? string.Empty,
-                        s["year"]?.GetValue<int>() ?? 0,
-                        s["tvdbId"]?.GetValue<int>() ?? 0,
-                        s["tvRageId"]?.GetValue<int>() ?? 0,
-                        s["tvMazeId"]?.GetValue<int>() ?? 0,
-                        s["tmdbId"]?.GetValue<int>() ?? 0,
-                        s["imdbId"]?.ToString() ?? string.Empty,
-                        s["id"]?.GetValue<int>() ?? 0
-                    ));
+                    JsonArray series = JsonArray.Parse(seriesJson).AsArray();
+                    //loop throught the series and get the title
+                    foreach (var s in series)
+                    {
+                        //add the series to the list
+                        seriesList.Add(new SonarrSeries(
+                            s["title"]?.ToString() ?? string.Empty,
+                            s["sortTitle"]?.ToString() ?? string.Empty,
+                            s["year"]?.GetValue<int>() ?? 0,
+                            s["tvdbId"]?.GetValue<int>() ?? 0,
+                            s["tvRageId"]?.GetValue<int>() ?? 0,
+                            s["tvMazeId"]?.GetValue<int>() ?? 0,
+                            s["tmdbId"]?.GetValue<int>() ?? 0,
+                            s["imdbId"]?.ToString() ?? string.Empty,
+                            s["id"]?.GetValue<int>() ?? 0
+                        ));
+                    }
+                }
+                else
+                {
+                    //get the series from sonarr as the file is empty
+                    getNew = true;
                 }
             }
-            else
+            else if (!File.Exists("Data/sonarr.json"))
+            {
+                //get the series from sonarr as the file is empty
+                getNew = true;
+            }
+            if (getNew)
             {
                 //get the series from sonarr
                 string url = this.fullUrl + "series";
@@ -67,7 +81,7 @@ namespace StreamingCheckArr.Core.Models
                 JsonArray series = JsonArray.Parse(responseBody).AsArray();
 
                 //save the json array to a file in the Data folder relative to the app
-                File.WriteAllText("Data/series.json", series.ToString());
+                File.WriteAllText("Data/sonarr.json", series.ToString());
 
                 //loop throught the series and get the title
                 foreach (var s in series)
@@ -86,7 +100,6 @@ namespace StreamingCheckArr.Core.Models
                     ));
                 }
             }
-
             return seriesList;
         }
     }

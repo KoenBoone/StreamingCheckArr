@@ -10,6 +10,9 @@
     <Content Include="..\Core\appsettings.json" Link="appsettings.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="..\Core\Data\Sonarr.json" Link="Data\Sonarr.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
   <ItemGroup>
@@ -18,6 +21,10 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Core\StreamingCheckArr.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Data\" />
   </ItemGroup>
 
 </Project>

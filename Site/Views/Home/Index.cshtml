@@ -1,5 +1,8 @@
-﻿@{
+﻿@using StreamingCheckArr.Core.Models
+@{
     ViewData["Title"] = "Home Page";
+
+    var series = ViewBag.Series;
 }
 
 <div class="text-center">
@@ -18,6 +21,13 @@
             @ViewBag.CountryCode <br />
 
             <br />
+
+            // Display the title of each series
+            foreach (var item in series)
+            {
+            <p>@item.title</p>
+            }
+
         }
 
     </p>

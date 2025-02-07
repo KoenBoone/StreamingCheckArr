@@ -31,6 +31,12 @@ namespace StreamingCheckArr.Site.Controllers
             ViewBag.TMDBToken = cp.TMDBToken;
             ViewBag.CountryCode = cp.CountryCode;
 
+            //get the series from sonarr
+            SonarrClient sc = new SonarrClient();
+            List<SonarrSeries> series = sc.getSeries().Result.ToList();
+
+            ViewBag.Series = series;
+
             return View();
         }
 
