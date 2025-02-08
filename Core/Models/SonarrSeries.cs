@@ -17,8 +17,10 @@ namespace StreamingCheckArr.Core.Models
         public int tmdbId { get; set; }
         public string imdbId { get; set; }
         public int id { get; set; }
+        public string remotePoster { get; set; }
+        public string localPoster { get; set; }
 
-        public SonarrSeries(string title, string sortTitle, int year, int tvdbId, int tvRageId, int tvMazeId, int tmdbId, string imdbId, int id)
+        public SonarrSeries(string title, string sortTitle, int year, int tvdbId, int tvRageId, int tvMazeId, int tmdbId, string imdbId, int id, string remotePoster, string localPoster)
         {
             this.title = title;
             this.sortTitle = sortTitle;
@@ -29,6 +31,8 @@ namespace StreamingCheckArr.Core.Models
             this.tmdbId = tmdbId;
             this.imdbId = imdbId;
             this.id = id;
+            this.remotePoster = remotePoster;
+            this.localPoster = localPoster;
         }
 
         public override string ToString()

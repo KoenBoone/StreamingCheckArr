@@ -53,7 +53,9 @@ namespace StreamingCheckArr.Core.Models
                             s["tvMazeId"]?.GetValue<int>() ?? 0,
                             s["tmdbId"]?.GetValue<int>() ?? 0,
                             s["imdbId"]?.ToString() ?? string.Empty,
-                            s["id"]?.GetValue<int>() ?? 0
+                            s["id"]?.GetValue<int>() ?? 0,
+                            s["remotePoster"]?.ToString() ?? string.Empty,
+                            s["images"]?.AsArray().FirstOrDefault(image => image["coverType"]?.ToString() == "poster")?["url"]?.ToString() ?? string.Empty
                         ));
                     }
                 }
@@ -97,7 +99,9 @@ namespace StreamingCheckArr.Core.Models
                         s["tvMazeId"]?.GetValue<int>() ?? 0,
                         s["tmdbId"]?.GetValue<int>() ?? 0,
                         s["imdbId"]?.ToString() ?? string.Empty,
-                        s["id"]?.GetValue<int>() ?? 0
+                        s["id"]?.GetValue<int>() ?? 0,
+                        s["remotePoster"]?.ToString() ?? string.Empty,
+                        s["images"]?.AsArray().FirstOrDefault(image => image["coverType"]?.ToString() == "poster")?["url"]?.ToString() ?? string.Empty
                     ));
                 }
             }
@@ -135,7 +139,9 @@ namespace StreamingCheckArr.Core.Models
                     s["tvMazeId"]?.GetValue<int>() ?? 0,
                     s["tmdbId"]?.GetValue<int>() ?? 0,
                     s["imdbId"]?.ToString() ?? string.Empty,
-                    s["id"]?.GetValue<int>() ?? 0
+                    s["id"]?.GetValue<int>() ?? 0,
+                    s["remotePoster"]?.ToString() ?? string.Empty,
+                    s["images"]?.AsArray().FirstOrDefault(image => image["coverType"]?.ToString() == "poster")?["url"]?.ToString() ?? string.Empty
                 ));
             }
 
