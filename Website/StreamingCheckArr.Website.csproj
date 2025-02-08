@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="..\Core\appsettings.json" Link="appsettings.json">
+    <Content Include="..\Core\Config.json" Link="Config.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Resource Include="..\Core\Data\Sonarr.json" Link="Data\Sonarr.json">
@@ -26,7 +26,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\Core\appsettings.json.example" Link="appsettings.json.example" />
+    <None Include="..\Core\Config.json.example" Link="Config.json.example" />
   </ItemGroup>
 
   <ItemGroup>

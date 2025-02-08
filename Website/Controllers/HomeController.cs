@@ -37,7 +37,8 @@ namespace StreamingCheckArr.Website.Controllers
 
             //get the series from sonarr
             SonarrClient sc = new SonarrClient();
-            List<SonarrSeries> series = sc.getSeries().Result.ToList();
+            //List<SonarrSeries> series = sc.getSeries().Result.ToList();
+            List<SonarrSeries> series = sc.lookupSeries("Bleu Bloods").Result.ToList();
 
             ViewBag.Series = series;
             return View();

@@ -68,6 +68,7 @@ namespace StreamingCheckArr.Core.Models
                 //get the series from sonarr as the file is empty
                 getNew = true;
             }
+
             if (getNew)
             {
                 //get the series from sonarr
@@ -100,7 +101,50 @@ namespace StreamingCheckArr.Core.Models
                     ));
                 }
             }
+
             return seriesList;
         }
+
+        //lookup a series in sonarr
+        public async Task<List<SonarrSeries>> lookupSeries(string lookupString)
+        {
+            List<SonarrSeries> seriesList = new List<SonarrSeries>();
+
+            string url = this.fullUrl + "series/lookup?term=" + lookupString;
+            url = url + "&apikey=" + this.apiKey;
+
+            HttpResponseMessage response = await httpClient.GetAsync(url);
+            response.EnsureSuccessStatusCode();
+            string responseBody = await response.Content.ReadAsStringAsync();
+
+            JsonArray foundSeries = JsonArray.Parse(responseBody).AsArray();
+
+            //save the json array to a file in the Data folder relative to the app
+            File.WriteAllText("Data/sonarrLookupResult.json", foundSeries.ToString());
+
+            //loop throught the series and get the title
+            foreach (var s in foundSeries)
+            {
+                //add the series to the list
+                seriesList.Add(new SonarrSeries(
+                    s["title"]?.ToString() ?? string.Empty,
+                    s["sortTitle"]?.ToString() ?? string.Empty,
+                    s["year"]?.GetValue<int>() ?? 0,
+                    s["tvdbId"]?.GetValue<int>() ?? 0,
+                    s["tvRageId"]?.GetValue<int>() ?? 0,
+                    s["tvMazeId"]?.GetValue<int>() ?? 0,
+                    s["tmdbId"]?.GetValue<int>() ?? 0,
+                    s["imdbId"]?.ToString() ?? string.Empty,
+                    s["id"]?.GetValue<int>() ?? 0
+                ));
+            }
+
+            return seriesList;
+        }
+
+        //add a series to sonarr (result from the lookup)
+
+        //delete a series from sonarr
+
     }
 }

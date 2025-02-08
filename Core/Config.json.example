@@ -1,0 +1,18 @@
+﻿{
+  "ConnectionStrings": {
+    "DefaultConnection": "Data Source=./Data/database.db"
+  },
+  "AppSettings": {
+    "SonarrIp": "127.0.0.1",
+    "SonarrPort": "8989",
+    "RadarrIp": "127.0.0.1",
+    "RadarrPort": "7878",
+    "SonarrApi": "apikey",
+    "RadarrApi": "apikey",
+    "TraktClientId": "clientid",
+    "TraktClientSecret": "clientsecret",
+    "TMDBApi": "apikey",
+    "TMDBToken": "token",
+    "CountryCode": "BE"
+  }
+}
