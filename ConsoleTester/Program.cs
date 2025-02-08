@@ -36,7 +36,8 @@ Console.WriteLine(cp.CountryCode);
 
 //get the series from sonarr
 SonarrClient sc = new SonarrClient();
-var series = sc.getSeries().Result;
+//var series = sc.getSeries().Result;
+var series = sc.lookupSeries("Bleu Bloods").Result;
 
 //write the title of each series to the console
 foreach (var s in series)

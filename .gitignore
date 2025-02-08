@@ -402,3 +402,4 @@ FodyWeavers.xsd
 # config Files
 *.config
 appsettings.json
+config.json
