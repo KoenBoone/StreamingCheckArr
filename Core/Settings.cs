@@ -11,18 +11,18 @@ namespace Core
         {
 
             var basePath = AppContext.BaseDirectory; // This ensures the path works regardless of the running project
-            var jsonPath = Path.Combine(basePath, "appsettings.json");
+            var jsonPath = Path.Combine(basePath, "config.json");
 
             //check if the appsettings.json file exists, and if not, create it by copying the appsettings.json.example file
             if (!File.Exists(jsonPath))
             {
-                //File.Copy("appsettings.json.example", "appsettings.json");
-                throw new FileNotFoundException("appsettings.json file not found. Please create it by copying the appsettings.json.example file.");
+                //File.Copy("config.json.example", "config.json");
+                throw new FileNotFoundException("config.json file not found. Please create it by copying the config.json.example file.");
             }
 
             var builder = new ConfigurationBuilder()
                 .SetBasePath(basePath)
-                .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
+                .AddJsonFile("config.json", optional: false, reloadOnChange: true);
 
             config = builder.Build();
         }
