@@ -1,7 +1,9 @@
-﻿@model IEnumerable<StreamingCheckArr.Core.Models.SonarrSeries>
+﻿@using StreamingCheckArr.Core.Models
+@model IEnumerable<StreamingCheckArr.Core.Models.SonarrSeries>
 
 @{
-    ViewData["Title"] = "Series";
+    ViewData["Title"] = "Sonarr Series";
+    configParameters cp = new configParameters();
 }
 
 <h1>Series</h1>
@@ -29,22 +31,22 @@
             <thead>
                 <tr>
                     <th>Show</th>
-                    <th>Year</th>
                     <th>tvdbId</th>
                     <th>tmdbId</th>
                     <th>imdbId</th>
                     <th>SonarId</th> 
+                    <th>Streamin in @cp.CountryCode on</th>
                     <th>Actions</th>
                 </tr>
             </thead>
             <tbody>
             @foreach (var item in Model) {
+                    string localPoster = "http://" + cp.SonarrIp + ":" + cp.SonarrPort + item.localPoster;
                 <tr>
                     <td>
-                        <img src="~/AdminLTE/dist/img/default-150x150.png" alt="Product 1" class="img-circle img-size-32 mr-2">
-                            @item.title
+                            <img src="@localPoster" alt="Poster" class="img-rounded img-size-32 mr-2">
+                            @item.title (@item.year)
                     </td>
-                    <td>@item.year</td>
                     <td>
                         @item.tvdbId
                     </td>
@@ -57,6 +59,7 @@
                     <td>
                         @item.id
                     </td>
+                    <td></td>
                     <td>
                         @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
                         @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
