@@ -21,6 +21,7 @@ namespace StreamingCheckArr.Website.Controllers
 
         public IActionResult Index()
         {
+            /*
             configParameters cp = new configParameters();
 
             ViewBag.SonarrIp = cp.SonarrIp;
@@ -41,7 +42,17 @@ namespace StreamingCheckArr.Website.Controllers
             List<SonarrSeries> series = sc.lookupSeries("Bleu Bloods").Result.ToList();
 
             ViewBag.Series = series;
+            */
             return View();
+        }
+
+        public IActionResult Series(bool getNew)
+        {
+            //get the series from sonarr
+            SonarrClient sc = new SonarrClient();
+            List<SonarrSeries> series = sc.getSeries(getNew).Result.ToList();
+
+            return View(series);
         }
 
         public IActionResult Dashboard1()

@@ -8,6 +8,7 @@
 <!--</div>-->
 <br />
 <!-- SidebarSearch Form -->
+<!--
 <div class="form-inline">
     <div class="input-group" data-widget="sidebar-search">
         <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
@@ -19,7 +20,7 @@
     </div>
 </div>
 <br />
-
+-->
 
 <nav id="mainMenu" class="mt-2">
     <ul class="nav nav-pills nav-sidebar flex-column nav-child-indent text-sm" data-widget="treeview" role="menu" data-accordion="false">
@@ -27,30 +28,39 @@
         with font-awesome or any other icon font library -->
 
         <li class="nav-item">
-            <a asp-controller="Home" asp-action="Dashboard1" class="nav-link">
-                <i class="nav-icon fas fa-tachometer-alt"></i>
+            <a asp-controller="Home" asp-action="Series" class="nav-link">
+                <i class="nav-icon fas fa-tv"></i>
                 <p>
-                    Dashboard 1
+                    Series
                 </p>
             </a>
         </li>
 
         <li class="nav-item">
             <a asp-controller="Home" asp-action="Dashboard2" class="nav-link">
-                <i class="nav-icon fas fa-tachometer-alt"></i>
+                <i class="nav-icon fas fa-video"></i>
                 <p>
-                    Dashboard 2
+                    Movies
                 </p>
             </a>
         </li>
 
         <li class="nav-item">
             <a asp-controller="Home" asp-action="Dashboard3" class="nav-link">
-                <i class="nav-icon fas fa-tachometer-alt"></i>
+                <i class="nav-icon fas fa-list"></i>
                 <p>
-                    Dashboard 3
+                    Trakt watchlist
                 </p>
             </a>
-        </li>        
+        </li>
+        
+        <li class="nav-item">
+            <a asp-controller="Home" asp-action="Dashboard1" class="nav-link">
+                <i class="nav-icon fas fa-cogs"></i>
+                <p>
+                    Settings
+                </p>
+            </a>
+        </li>
     </ul>
 </nav>
