@@ -42,7 +42,7 @@ var series = sc.lookupSeries("Bleu Bloods").Result;
 //write the title of each series to the console
 foreach (var s in series)
 {
-    Console.WriteLine(s.title + " " + s.year);
+    Console.WriteLine(s.title + " " + s.year + " " + s.localPoster + " ---- " + s.remotePoster);
 }
 
 Console.ReadLine();
