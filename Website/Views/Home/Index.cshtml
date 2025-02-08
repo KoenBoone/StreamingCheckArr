@@ -1,38 +1,11 @@
-﻿@using StreamingCheckArr.Core.Models
-
-@{
+﻿@{
     ViewData["Title"] = "Home Page";
-
-    var series = ViewBag.Series;
 }
 
 
 <div class="text-center" style="width:100%; height:100%">
-    <h1 class="display-4">Admin LTE Dashboard Template</h1>
-    <p>MVC Core 5</p>
+    <h1 class="display-4">StreamCheckArr</h1>
+    <p>pre-Alpha - NOT for public use</p>
     <br />
     <img src="~/imgs/home2.gif" alt="Home Page" style="box-shadow:2px; max-height:400px" />
-    <p>
-        @{
-            @ViewBag.SonarrIp @ViewBag.SonarrPort <br />
-            @ViewBag.RadarrIp @ViewBag.RadarrPort <br />
-            @ViewBag.SonarrApiKey  <br />
-            @ViewBag.RadarrApiKey  <br />
-            @ViewBag.TraktClientId <br />
-            @ViewBag.TraktClientSecret <br />
-            @ViewBag.TMDBApi  <br />
-            @ViewBag.TMDBToken <br />
-            @ViewBag.CountryCode <br />
-
-            <br />
-
-            // Display the title of each series
-            foreach (var item in series)
-            {
-                <p>@item.title</p>
-            }
-
-        }
-
-    </p>
 </div>
