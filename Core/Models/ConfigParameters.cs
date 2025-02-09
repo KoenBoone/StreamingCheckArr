@@ -22,6 +22,7 @@ namespace StreamingCheckArr.Core.Models
         public string TMDBApi { get; private set; }
         public string TMDBToken { get; private set; }
         public string CountryCode { get; private set; }
+        public string TMDBProviderLogoLocation { get; private set; }
 
         //explicit constructor
         public configParameters()
@@ -41,6 +42,7 @@ namespace StreamingCheckArr.Core.Models
             TMDBApi = iConf.GetSection("AppSettings:TMDBApi").Value;
             TMDBToken = iConf.GetSection("AppSettings:TMDBToken").Value;
             CountryCode = iConf.GetSection("AppSettings:CountryCode").Value;
+            TMDBProviderLogoLocation = "https://image.tmdb.org/t/p/original/";
         }
     }
 }
