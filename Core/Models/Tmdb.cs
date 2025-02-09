@@ -55,6 +55,44 @@ namespace StreamingCheckArr.Core.Models
                         {
                             results.Remove(key);
                         }
+                        else
+                        {
+                            //if the path Data/Providers/Logos does not exist, create it
+                            if (!Directory.Exists("Data/Providers/Logos"))
+                            {
+                                Directory.CreateDirectory("Data/Providers/Logos");
+                            }
+                            //get all the logo_path and provider_name values from the flatrate array
+                            if (results[key]["flatrate"] is JsonArray flatrate)
+                            {
+                                foreach (var item in flatrate)
+                                {
+                                    if (item is JsonObject flatrateItem)
+                                    {
+                                        string logoPath = flatrateItem["logo_path"].ToString();
+                                        string providerName = flatrateItem["provider_name"].ToString();
+                                        string logoUrl = cp.TMDBProviderLogoLocation + logoPath;
+                                        string localLogoPath = "Data/Providers/Logos/" + providerName + ".jpg";
+
+                                        //get the logo from the logoUrl and save it to the file system if it doesn't already exist
+                                        if (!File.Exists(localLogoPath))
+                                        {
+                                            try
+                                            {
+                                                HttpResponseMessage logoResponse = await httpClient.GetAsync(logoUrl);
+                                                logoResponse.EnsureSuccessStatusCode();
+                                                byte[] logoBytes = await logoResponse.Content.ReadAsByteArrayAsync();
+                                                File.WriteAllBytes(localLogoPath, logoBytes);
+                                            }
+                                            catch (Exception e)
+                                            {
+                                                Console.WriteLine("Error getting logo: " + e.Message);
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
 

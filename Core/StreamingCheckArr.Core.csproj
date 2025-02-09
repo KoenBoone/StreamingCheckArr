@@ -36,4 +36,8 @@
     </Resource>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Data\Providers\logos\" />
+  </ItemGroup>
+
 </Project>

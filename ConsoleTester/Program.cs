@@ -46,7 +46,7 @@ Console.WriteLine(cp.CountryCode);
 
 //check tmdb for outlander: id 56570
 var tmdbclient = new tmdbClient();
-var json = tmdbclient.getStreaming("tv", 56570, false);
+var json = tmdbclient.getStreaming("tv", 56570, true);
 Console.WriteLine(json.Result);
 
 
