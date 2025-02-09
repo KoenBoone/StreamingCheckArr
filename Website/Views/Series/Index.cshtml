@@ -37,7 +37,7 @@
                 <th>tmdbId</th>
                 <th>imdbId</th>
                 <th>SonarId</th> 
-                <th>Streaming in @cp.CountryCode on</th>
+                <th>Flatrate or free streaming in @cp.CountryCode on</th>
                 <th>Actions</th>
             </tr>
             </thead>
@@ -66,9 +66,24 @@
                             @await (Component.InvokeAsync<StreamersViewComponent>(new { tmdbID = item.tmdbId }))
                     </td>
                     <td>
-                        @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                        @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                        @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                        @if (item.tmdbId == 0)
+                        {
+                            <span class="text-red">No TMDB ID |</span>
+                        }
+                        else
+                        {
+                            <span>@Html.ActionLink("Check streaming", "GetStreamers", new { tmdbID = item.tmdbId })
+                            |</span>
+                        }
+                        
+                        @Html.ActionLink("Details", "Details TMDB", new
+                        {
+                            /* id=item.PrimaryKey */
+                        }) |
+                        @Html.ActionLink("Delete from Sonarr", "Delete", new
+                        {
+                            /* id=item.PrimaryKey */
+                        })
                     </td>
                 </tr>
             }

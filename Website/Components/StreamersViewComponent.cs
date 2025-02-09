@@ -12,6 +12,7 @@ namespace StreamingCheckArr.Website.Components
         {
             configParameters cp = new configParameters();
             ViewBag.tmdbID = tmdbID;
+            ViewBag.LastModified = null;
             string localLogoPath = "/Data/Providers/Logos/";
             List<string> logos = new List<string>();
 
@@ -19,20 +20,56 @@ namespace StreamingCheckArr.Website.Components
             string jsonFile = "Data/Providers/tv/" + tmdbID + ".json";
             if (System.IO.File.Exists(jsonFile))
             {
+                //get the date the file was last modified
+                System.IO.FileInfo fi = new System.IO.FileInfo(jsonFile);
+                ViewBag.LastModified = fi.LastWriteTime;
+
                 string json = System.IO.File.ReadAllText(jsonFile);
+
+                //check if it is not empty or null or an empty array
+                if (string.IsNullOrEmpty(json) || json == "[]" || json == "{}")
+                {
+                    return View("_Streamers", logos);
+                }
 
                 //create json object
                 JsonNode jn = JsonNode.Parse(json);
+                
+                //check if it contains a results object
+                if (jn["results"] == null)
+                {
+                    return View("_Streamers", logos);
+                }
                 JsonNode results = jn["results"];
+
+                //check if it contains a country code object
+                if (results[cp.CountryCode] == null)
+                {
+                    return View("_Streamers", logos);
+                }
                 JsonNode resultsCountry = results[cp.CountryCode];
 
-                //get all the logo_path and provider_name values from the flatrate array
-                JsonArray flatrate = resultsCountry["flatrate"].AsArray();
-
-                foreach (var item in flatrate)
+                //get all the logo_path and provider_name values from the flatrate array (if flatrate is not empty)
+                if (resultsCountry["flatrate"] != null)
                 {
-                    logos.Add(localLogoPath + item["provider_name"].ToString() + ".jpg");
+                    JsonArray flatrate = resultsCountry["flatrate"].AsArray();
+
+                    foreach (var item in flatrate)
+                    {
+                        logos.Add(localLogoPath + item["provider_name"].ToString() + ".jpg");
+                    }
                 }
+
+                //get all the logo_path and provider_name values from the free array (if free is not empty)
+                if (resultsCountry["free"] != null)
+                {
+                    JsonArray free = resultsCountry["free"].AsArray();
+                    foreach (var item in free)
+                    {
+                        logos.Add(localLogoPath + item["provider_name"].ToString() + ".jpg");
+                    }
+                }
+                
             }
 
             //return the partial view with the logos
