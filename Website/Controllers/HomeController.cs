@@ -70,6 +70,10 @@ namespace StreamingCheckArr.Website.Controllers
             return View();
         }
 
+        public string checkStreaming(int id)
+        {
+            return "checked";
+        }
 
         public IActionResult Privacy()
         {
