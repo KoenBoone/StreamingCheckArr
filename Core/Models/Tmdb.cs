@@ -29,6 +29,13 @@ namespace StreamingCheckArr.Core.Models
             configParameters cp = new configParameters();
 
             JsonNode? json = null;
+
+            //if the folder Data/Providers/<tvOrMovie> does not exist, create it
+            if (!Directory.Exists("Data/Providers/" + tvOrMovie))
+            {
+                Directory.CreateDirectory("Data/Providers/" + tvOrMovie);
+            }
+
             if (getNew)
             {
                 try

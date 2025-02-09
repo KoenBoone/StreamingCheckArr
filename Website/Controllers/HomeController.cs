@@ -46,15 +46,6 @@ namespace StreamingCheckArr.Website.Controllers
             return View();
         }
 
-        public IActionResult Series(bool getNew)
-        {
-            //get the series from sonarr
-            SonarrClient sc = new SonarrClient();
-            List<SonarrSeries> series = sc.getSeries(getNew).Result.ToList();
-
-            return View(series);
-        }
-
         public IActionResult Dashboard1()
         {
             return View();
@@ -68,11 +59,6 @@ namespace StreamingCheckArr.Website.Controllers
         public IActionResult Dashboard3()
         {
             return View();
-        }
-
-        public string checkStreaming(int id)
-        {
-            return "checked";
         }
 
         public IActionResult Privacy()
