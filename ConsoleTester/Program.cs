@@ -35,14 +35,20 @@ Console.WriteLine(cp.TMDBToken);
 Console.WriteLine(cp.CountryCode);
 
 //get the series from sonarr
-SonarrClient sc = new SonarrClient();
 //var series = sc.getSeries().Result;
-var series = sc.lookupSeries("Bleu Bloods").Result;
+//var series = sc.lookupSeries("Bleu Bloods").Result;
 
 //write the title of each series to the console
-foreach (var s in series)
+/*foreach (var s in series)
 {
     Console.WriteLine(s.title + " " + s.year + " " + s.localPoster + " ---- " + s.remotePoster);
-}
+}*/
+
+//check tmdb for outlander: id 56570
+var tmdbclient = new tmdbClient();
+var json = tmdbclient.getStreaming("tv", 56570, false);
+Console.WriteLine(json.Result);
+
+
 
 Console.ReadLine();
