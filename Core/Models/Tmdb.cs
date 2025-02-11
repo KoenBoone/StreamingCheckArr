@@ -30,6 +30,11 @@ namespace StreamingCheckArr.Core.Models
 
             JsonNode? json = null;
 
+            if (id == 0)
+            {
+                return "";
+            }
+
             //if the folder Data/Providers/<tvOrMovie> does not exist, create it
             if (!Directory.Exists("Data/Providers/" + tvOrMovie))
             {
@@ -51,6 +56,10 @@ namespace StreamingCheckArr.Core.Models
                     Console.WriteLine("Error getting streaming providers: " + e.Message);
                 }
 
+                if (json == null)
+                {
+                    return "";
+                }
 
                 // Filter the results to keep only the object for the specified country code
                 if (json["results"] is JsonObject results)
