@@ -1,0 +1,16 @@
+{
+  "id": 72710,
+  "results": {
+    "BE": {
+      "link": "https://www.themoviedb.org/tv/72710-the-continental-from-the-world-of-john-wick/watch?locale=BE",
+      "flatrate": [
+        {
+          "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+          "provider_id": 119,
+          "provider_name": "Amazon Prime Video",
+          "display_priority": 2
+        }
+      ]
+    }
+  }
+}

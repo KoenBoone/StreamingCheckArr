@@ -1,0 +1,16 @@
+{
+  "id": 63247,
+  "results": {
+    "BE": {
+      "link": "https://www.themoviedb.org/tv/63247-westworld/watch?locale=BE",
+      "buy": [
+        {
+          "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+          "provider_id": 35,
+          "provider_name": "Rakuten TV",
+          "display_priority": 10
+        }
+      ]
+    }
+  }
+}

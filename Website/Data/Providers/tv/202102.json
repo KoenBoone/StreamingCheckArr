@@ -1,0 +1,16 @@
+{
+  "id": 202102,
+  "results": {
+    "BE": {
+      "link": "https://www.themoviedb.org/tv/202102-quantum-leap/watch?locale=BE",
+      "flatrate": [
+        {
+          "logo_path": "/kwftIxtjuCAROIcdd53UEjzSmca.jpg",
+          "provider_id": 1857,
+          "provider_name": "Telenet",
+          "display_priority": 34
+        }
+      ]
+    }
+  }
+}

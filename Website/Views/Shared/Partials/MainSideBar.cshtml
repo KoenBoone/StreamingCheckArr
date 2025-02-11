@@ -28,19 +28,21 @@
         with font-awesome or any other icon font library -->
 
         <li class="nav-item">
-            <a asp-controller="Series" asp-action="Index" class="nav-link">
-                <i class="nav-icon fas fa-tv"></i>
-                <p>
-                    Series
-                </p>
-            </a>
+            <li class="nav-item">
+                <a asp-controller="Series" asp-action="Index" asp-route-getNew="false" class="nav-link">
+                    <i class="nav-icon fas fa-tv"></i>
+                    <p>
+                        Sonarr Series
+                    </p>
+                </a>
+            </li>
         </li>
 
         <li class="nav-item">
             <a asp-controller="Home" asp-action="Dashboard2" class="nav-link">
                 <i class="nav-icon fas fa-video"></i>
                 <p>
-                    Movies
+                    Radarr Movies
                 </p>
             </a>
         </li>
@@ -63,4 +65,9 @@
             </a>
         </li>
     </ul>
+    <hr/>
+    <div class="text-gray" style="text-align: center;">
+        Streaming providers powered by<br/><br/>
+        <img src="\Data\Images\blue_square_1-5bdc75aaebeb75dc7ae79426ddd9be3b2be1e342510f8202baf6bffa71d7f5c4.svg" class="img-rounded img-size-64" />
+    </div>
 </nav>

@@ -1,0 +1,24 @@
+{
+  "id": 35700,
+  "results": {
+    "BE": {
+      "link": "https://www.themoviedb.org/tv/35700-het-eiland/watch?locale=BE",
+      "free": [
+        {
+          "logo_path": "/gqxv8W54I95K3hNS6UT6sDRe2Az.jpg",
+          "provider_id": 312,
+          "provider_name": "VRT MAX",
+          "display_priority": 5
+        }
+      ],
+      "flatrate": [
+        {
+          "logo_path": "/kwftIxtjuCAROIcdd53UEjzSmca.jpg",
+          "provider_id": 1857,
+          "provider_name": "Telenet",
+          "display_priority": 34
+        }
+      ]
+    }
+  }
+}

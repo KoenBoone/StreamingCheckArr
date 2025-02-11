@@ -1,0 +1,16 @@
+{
+  "id": 110382,
+  "results": {
+    "BE": {
+      "link": "https://www.themoviedb.org/tv/110382-pachinko/watch?locale=BE",
+      "flatrate": [
+        {
+          "logo_path": "/2E03IAZsX4ZaUqM7tXlctEPMGWS.jpg",
+          "provider_id": 350,
+          "provider_name": "Apple TV Plus",
+          "display_priority": 9
+        }
+      ]
+    }
+  }
+}

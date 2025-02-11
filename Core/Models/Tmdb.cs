@@ -30,6 +30,11 @@ namespace StreamingCheckArr.Core.Models
 
             JsonNode? json = null;
 
+            if (id == 0)
+            {
+                return "";
+            }
+
             //if the folder Data/Providers/<tvOrMovie> does not exist, create it
             if (!Directory.Exists("Data/Providers/" + tvOrMovie))
             {
@@ -51,6 +56,10 @@ namespace StreamingCheckArr.Core.Models
                     Console.WriteLine("Error getting streaming providers: " + e.Message);
                 }
 
+                if (json == null)
+                {
+                    return "";
+                }
 
                 // Filter the results to keep only the object for the specified country code
                 if (json["results"] is JsonObject results)
@@ -99,6 +108,38 @@ namespace StreamingCheckArr.Core.Models
                                     }
                                 }
                             }
+
+                            //get all the logo_path and provider_name values from the free array
+                            if (results[key]["free"] is JsonArray free)
+                            {
+                                foreach (var item in free)
+                                {
+                                    if (item is JsonObject freeItem)
+                                    {
+                                        string logoPath = freeItem["logo_path"].ToString();
+                                        string providerName = freeItem["provider_name"].ToString();
+                                        string logoUrl = cp.TMDBProviderLogoLocation + logoPath;
+                                        string localLogoPath = "Data/Providers/Logos/" + providerName + ".jpg";
+
+                                        //get the logo from the logoUrl and save it to the file system if it doesn't already exist
+                                        if (!File.Exists(localLogoPath))
+                                        {
+                                            try
+                                            {
+                                                HttpResponseMessage logoResponse = await httpClient.GetAsync(logoUrl);
+                                                logoResponse.EnsureSuccessStatusCode();
+                                                byte[] logoBytes = await logoResponse.Content.ReadAsByteArrayAsync();
+                                                File.WriteAllBytes(localLogoPath, logoBytes);
+                                            }
+                                            catch (Exception e)
+                                            {
+                                                Console.WriteLine("Error getting logo: " + e.Message);
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
                         }
                     }
                 }

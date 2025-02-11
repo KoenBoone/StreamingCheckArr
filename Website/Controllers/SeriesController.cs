@@ -25,8 +25,39 @@ namespace StreamingCheckArr.Website.Controllers
             tmdbClient tmdb = new tmdbClient();
             _ = tmdb.getStreaming("tv", tmdbID, true).Result;
 
+            //redirect to the series page
+            return RedirectToAction("Index", new{getNew = false});
+        }
+
+        //get the streaming providers for all series where the tmdbid is not 0
+        //WARNING: do not abuse this!!!!
+        public IActionResult GetStreamersAll()
+        {
+            //get the series from the json file /Data/sonarr.json
+            SonarrClient sc = new SonarrClient();
+            List<SonarrSeries> series = sc.getSeries(false).Result.ToList();
+
+            tmdbClient tmdb = new tmdbClient();
+
+            foreach (SonarrSeries s in series)
+            {
+                if (s.tmdbId != 0)
+                {
+                    _ = tmdb.getStreaming("tv", s.tmdbId, true).Result;
+                }
+            }
             //redirect to the streamers page
             return RedirectToAction("Index");
+        }
+
+        //Get the streaming providers for a series (refresh)
+        public IActionResult RefreshStreamers(int tmdbID)
+        {
+            //get the streaming providers for the series
+            tmdbClient tmdb = new tmdbClient();
+            _ = tmdb.getStreaming("tv", tmdbID, true).Result;
+
+            return ViewComponent("Streamers", new { tmdbID });
         }
     }
 }
