@@ -5,7 +5,7 @@ using StreamingCheckArr.Core.Models;
 
 namespace StreamingCheckArr.Website.Components
 {
-    [ViewComponent]
+    [ViewComponent(Name = "Streamers")]
     public class StreamersViewComponent : ViewComponent
     {
         public IViewComponentResult Invoke(int tmdbID)

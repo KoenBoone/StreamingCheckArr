@@ -1,0 +1,16 @@
+{
+  "id": 113962,
+  "results": {
+    "BE": {
+      "link": "https://www.themoviedb.org/tv/113962-lioness/watch?locale=BE",
+      "flatrate": [
+        {
+          "logo_path": "/acANFKCTLQuvDPjJAb5SnmzJaT6.jpg",
+          "provider_id": 311,
+          "provider_name": "Be TV Go",
+          "display_priority": 4
+        }
+      ]
+    }
+  }
+}
