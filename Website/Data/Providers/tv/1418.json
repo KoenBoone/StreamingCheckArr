@@ -1,0 +1,24 @@
+{
+  "id": 1418,
+  "results": {
+    "BE": {
+      "link": "https://www.themoviedb.org/tv/1418-the-big-bang-theory/watch?locale=BE",
+      "flatrate": [
+        {
+          "logo_path": "/fksCUZ9QDWZMUwL2LgMtLckROUN.jpg",
+          "provider_id": 1899,
+          "provider_name": "Max",
+          "display_priority": 65
+        }
+      ],
+      "buy": [
+        {
+          "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+          "provider_id": 35,
+          "provider_name": "Rakuten TV",
+          "display_priority": 10
+        }
+      ]
+    }
+  }
+}

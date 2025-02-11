@@ -1,0 +1,30 @@
+{
+  "id": 65334,
+  "results": {
+    "BE": {
+      "link": "https://www.themoviedb.org/tv/65334-miraculous-les-aventures-de-ladybug-et-chat-noir/watch?locale=BE",
+      "flatrate": [
+        {
+          "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg",
+          "provider_id": 337,
+          "provider_name": "Disney Plus",
+          "display_priority": 0
+        },
+        {
+          "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+          "provider_id": 8,
+          "provider_name": "Netflix",
+          "display_priority": 1
+        }
+      ],
+      "free": [
+        {
+          "logo_path": "/gdqGg9TIzmQQBmkG8bljY20KX0z.jpg",
+          "provider_id": 461,
+          "provider_name": "RTBF Auvio",
+          "display_priority": 15
+        }
+      ]
+    }
+  }
+}

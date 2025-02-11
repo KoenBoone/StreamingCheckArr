@@ -1,0 +1,16 @@
+{
+  "id": 127235,
+  "results": {
+    "BE": {
+      "link": "https://www.themoviedb.org/tv/127235-invasion/watch?locale=BE",
+      "flatrate": [
+        {
+          "logo_path": "/2E03IAZsX4ZaUqM7tXlctEPMGWS.jpg",
+          "provider_id": 350,
+          "provider_name": "Apple TV Plus",
+          "display_priority": 9
+        }
+      ]
+    }
+  }
+}

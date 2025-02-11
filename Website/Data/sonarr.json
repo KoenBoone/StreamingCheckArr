@@ -1999,7 +1999,7 @@
     "status": "ended",
     "ended": true,
     "overview": "A drama about a multi-generational family of cops dedicated to New York City law enforcement. Frank Reagan is the New York Police Commissioner and heads both the police force and the Reagan brood. He runs his department as diplomatically as he runs his family, even when dealing with the politics that plagued his unapologetically bold father, Henry, during his stint as Chief.",
-    "previousAiring": "2023-03-11T03:00:00Z",
+    "previousAiring": "2024-11-30T03:00:00Z",
     "network": "CBS",
     "airTime": "22:00",
     "images": [
@@ -2031,14 +2031,17 @@
     "seasons": [
       {
         "seasonNumber": 0,
-        "monitored": false,
+        "monitored": true,
         "statistics": {
-          "episodeFileCount": 0,
-          "episodeCount": 0,
+          "previousAiring": "2024-11-30T03:00:00Z",
+          "episodeFileCount": 1,
+          "episodeCount": 2,
           "totalEpisodeCount": 3,
-          "sizeOnDisk": 0,
-          "releaseGroups": [],
-          "percentOfEpisodes": 0
+          "sizeOnDisk": 664626574,
+          "releaseGroups": [
+            "ED"
+          ],
+          "percentOfEpisodes": 50.0
         }
       },
       {
@@ -2119,9 +2122,8 @@
       },
       {
         "seasonNumber": 7,
-        "monitored": true,
+        "monitored": false,
         "statistics": {
-          "previousAiring": "2017-05-06T02:00:00Z",
           "episodeFileCount": 22,
           "episodeCount": 22,
           "totalEpisodeCount": 22,
@@ -2140,9 +2142,8 @@
       },
       {
         "seasonNumber": 8,
-        "monitored": true,
+        "monitored": false,
         "statistics": {
-          "previousAiring": "2018-05-12T02:00:00Z",
           "episodeFileCount": 22,
           "episodeCount": 22,
           "totalEpisodeCount": 22,
@@ -2153,15 +2154,20 @@
       },
       {
         "seasonNumber": 9,
-        "monitored": true,
+        "monitored": false,
         "statistics": {
-          "previousAiring": "2019-05-11T02:00:00Z",
-          "episodeFileCount": 6,
+          "episodeFileCount": 22,
           "episodeCount": 22,
           "totalEpisodeCount": 22,
-          "sizeOnDisk": 1779130983,
-          "releaseGroups": [],
-          "percentOfEpisodes": 27.272727272727272727272727270
+          "sizeOnDisk": 7261765451,
+          "releaseGroups": [
+            "AMRAP",
+            "BAMBOOZLE",
+            "MEMENTO",
+            "METCON",
+            "NTb"
+          ],
+          "percentOfEpisodes": 100
         }
       },
       {
@@ -2206,15 +2212,19 @@
         "seasonNumber": 13,
         "monitored": true,
         "statistics": {
-          "previousAiring": "2023-03-11T03:00:00Z",
-          "episodeFileCount": 6,
+          "previousAiring": "2023-05-20T02:00:00Z",
+          "episodeFileCount": 21,
           "episodeCount": 21,
           "totalEpisodeCount": 21,
-          "sizeOnDisk": 1632988476,
+          "sizeOnDisk": 7004057120,
           "releaseGroups": [
-            "MeGusta"
+            "EDITH",
+            "GGWP",
+            "KOGi",
+            "NTb",
+            "TRUFFLE"
           ],
-          "percentOfEpisodes": 28.571428571428571428571428570
+          "percentOfEpisodes": 100
         }
       },
       {
@@ -2270,11 +2280,12 @@
     },
     "statistics": {
       "seasonCount": 14,
-      "episodeFileCount": 262,
-      "episodeCount": 293,
+      "episodeFileCount": 294,
+      "episodeCount": 295,
       "totalEpisodeCount": 296,
-      "sizeOnDisk": 87174839370,
+      "sizeOnDisk": 98693169056,
       "releaseGroups": [
+        "ED",
         "Tdarrcachefile-Gt1qo8izdsb",
         "31R",
         "AJP69-SRP",
@@ -2284,11 +2295,19 @@
         "FLEET",
         "KILLERS",
         "Repost",
+        "AMRAP",
+        "BAMBOOZLE",
+        "MEMENTO",
+        "METCON",
+        "NTb",
         "CiNEMiX",
-        "MeGusta",
+        "EDITH",
+        "GGWP",
+        "KOGi",
+        "TRUFFLE",
         "MiNX"
       ],
-      "percentOfEpisodes": 89.41979522184300341296928328
+      "percentOfEpisodes": 99.66101694915254237288135593
     },
     "languageProfileId": 1,
     "id": 18
@@ -11541,6 +11560,7 @@
     "status": "continuing",
     "ended": false,
     "overview": "Explore the inner workings of the government agency that investigates all crimes involving Navy and Marine Corps personnel, regardless of rank or position.  Leading this team is NCIS Special Agent Leroy Jethro Gibbs, a skilled investigator and interrogator who is smart, tough and willing to bend the rules to get the job done.",
+    "nextAiring": "2025-02-25T02:00:00Z",
     "previousAiring": "2024-04-16T01:00:00Z",
     "network": "CBS",
     "airTime": "21:00",
@@ -11861,9 +11881,10 @@
         "seasonNumber": 22,
         "monitored": true,
         "statistics": {
+          "nextAiring": "2025-02-25T02:00:00Z",
           "episodeFileCount": 11,
           "episodeCount": 11,
-          "totalEpisodeCount": 12,
+          "totalEpisodeCount": 14,
           "sizeOnDisk": 4501440222,
           "releaseGroups": [
             "JFF"
@@ -11885,7 +11906,7 @@
     "tvMazeId": 60,
     "tmdbId": 4614,
     "firstAired": "2003-09-23T00:00:00Z",
-    "lastAired": "2025-02-10T00:00:00Z",
+    "lastAired": "2025-03-03T00:00:00Z",
     "seriesType": "standard",
     "cleanTitle": "ncis",
     "imdbId": "tt0364845",
@@ -11914,7 +11935,7 @@
       "seasonCount": 22,
       "episodeFileCount": 478,
       "episodeCount": 496,
-      "totalEpisodeCount": 497,
+      "totalEpisodeCount": 499,
       "sizeOnDisk": 139347834175,
       "releaseGroups": [
         "DIMENSION",
@@ -13633,8 +13654,8 @@
     "status": "continuing",
     "ended": false,
     "overview": "Los Angeles S.W.A.T. Sergeant Daniel \u2018Hondo\u2019 Harrelson is assigned to lead a highly-skilled unit in the community where he grew up. Torn between loyalty to the streets where the cops are sometimes the enemy, and allegiance to his brothers in blue, he strategically straddles these two worlds. Hondo encourages his team to rely on communication and respect over force and aggression, but when a crisis erupts, these unflinching men and women are prepared to put their tactical training to the test.",
-    "nextAiring": "2025-02-08T03:00:00Z",
-    "previousAiring": "2025-02-01T03:00:00Z",
+    "nextAiring": "2025-02-15T03:00:00Z",
+    "previousAiring": "2025-02-08T03:00:00Z",
     "network": "CBS",
     "airTime": "22:00",
     "images": [
@@ -13766,12 +13787,12 @@
         "seasonNumber": 8,
         "monitored": true,
         "statistics": {
-          "nextAiring": "2025-02-08T03:00:00Z",
-          "previousAiring": "2025-02-01T03:00:00Z",
-          "episodeFileCount": 9,
-          "episodeCount": 9,
-          "totalEpisodeCount": 13,
-          "sizeOnDisk": 4369888421,
+          "nextAiring": "2025-02-15T03:00:00Z",
+          "previousAiring": "2025-02-08T03:00:00Z",
+          "episodeFileCount": 10,
+          "episodeCount": 10,
+          "totalEpisodeCount": 14,
+          "sizeOnDisk": 4870587204,
           "releaseGroups": [
             "MiNX",
             "NTb"
@@ -13793,7 +13814,7 @@
     "tvMazeId": 21532,
     "tmdbId": 71790,
     "firstAired": "2017-11-02T00:00:00Z",
-    "lastAired": "2025-02-28T00:00:00Z",
+    "lastAired": "2025-03-07T00:00:00Z",
     "seriesType": "standard",
     "cleanTitle": "swt2017",
     "imdbId": "tt6111130",
@@ -13818,10 +13839,10 @@
     },
     "statistics": {
       "seasonCount": 8,
-      "episodeFileCount": 150,
-      "episodeCount": 150,
-      "totalEpisodeCount": 154,
-      "sizeOnDisk": 71827250441,
+      "episodeFileCount": 151,
+      "episodeCount": 151,
+      "totalEpisodeCount": 155,
+      "sizeOnDisk": 72327949224,
       "releaseGroups": [
         "CiNEMiX",
         "TdarrCacheFile-zhnS",
@@ -23073,8 +23094,7 @@
     "status": "continuing",
     "ended": false,
     "overview": "Established singer-songwriters and acclaimed newcomers perform country, blues, rock, folk, bluegrass, and related styles of music.",
-    "nextAiring": "2025-02-08T05:00:00Z",
-    "previousAiring": "2025-02-01T05:00:00Z",
+    "previousAiring": "2024-11-23T05:00:00Z",
     "network": "PBS",
     "airTime": "00:00",
     "images": [
@@ -23703,7 +23723,7 @@
       },
       {
         "seasonNumber": 49,
-        "monitored": true,
+        "monitored": false,
         "statistics": {
           "episodeFileCount": 7,
           "episodeCount": 7,
@@ -23715,18 +23735,16 @@
       },
       {
         "seasonNumber": 50,
-        "monitored": true,
+        "monitored": false,
         "statistics": {
-          "nextAiring": "2025-02-08T05:00:00Z",
-          "previousAiring": "2025-02-01T05:00:00Z",
-          "episodeFileCount": 11,
+          "episodeFileCount": 12,
           "episodeCount": 12,
           "totalEpisodeCount": 13,
-          "sizeOnDisk": 6094174090,
+          "sizeOnDisk": 6802587710,
           "releaseGroups": [
             "BAE"
           ],
-          "percentOfEpisodes": 91.66666666666666666666666667
+          "percentOfEpisodes": 100
         }
       }
     ],
@@ -23767,14 +23785,14 @@
     },
     "statistics": {
       "seasonCount": 50,
-      "episodeFileCount": 55,
+      "episodeFileCount": 56,
       "episodeCount": 141,
       "totalEpisodeCount": 696,
-      "sizeOnDisk": 29831707122,
+      "sizeOnDisk": 30540120742,
       "releaseGroups": [
         "BAE"
       ],
-      "percentOfEpisodes": 39.007092198581560283687943260
+      "percentOfEpisodes": 39.716312056737588652482269500
     },
     "languageProfileId": 1,
     "id": 231
@@ -27049,7 +27067,7 @@
           "previousAiring": "2025-02-05T01:00:00Z",
           "episodeFileCount": 10,
           "episodeCount": 10,
-          "totalEpisodeCount": 13,
+          "totalEpisodeCount": 14,
           "sizeOnDisk": 4352316719,
           "releaseGroups": [
             "JFF",
@@ -27072,7 +27090,7 @@
     "tvMazeId": 32158,
     "tmdbId": 80748,
     "firstAired": "2018-09-25T00:00:00Z",
-    "lastAired": "2025-02-25T00:00:00Z",
+    "lastAired": "2025-03-04T00:00:00Z",
     "seriesType": "standard",
     "cleanTitle": "fbi",
     "imdbId": "tt7491982",
@@ -27098,7 +27116,7 @@
       "seasonCount": 7,
       "episodeFileCount": 48,
       "episodeCount": 123,
-      "totalEpisodeCount": 126,
+      "totalEpisodeCount": 127,
       "sizeOnDisk": 17626946216,
       "releaseGroups": [
         "MeGusta",
@@ -30618,7 +30636,7 @@
     "ended": false,
     "overview": "Explores the high-pressure experiences of the first responders who are thrust into the most frightening, shocking and heart-stopping situations.",
     "nextAiring": "2025-03-07T01:00:00Z",
-    "previousAiring": "2024-10-25T00:00:00Z",
+    "previousAiring": "2018-09-25T00:00:00Z",
     "network": "ABC (US)",
     "airTime": "20:00",
     "images": [
@@ -30740,13 +30758,12 @@
         "monitored": true,
         "statistics": {
           "nextAiring": "2025-03-07T01:00:00Z",
-          "previousAiring": "2024-10-25T00:00:00Z",
           "episodeFileCount": 8,
           "episodeCount": 8,
           "totalEpisodeCount": 9,
-          "sizeOnDisk": 3589944508,
+          "sizeOnDisk": 3683182802,
           "releaseGroups": [
-            "MiNX"
+            "WvF"
           ],
           "percentOfEpisodes": 100
         }
@@ -30790,10 +30807,10 @@
       "episodeFileCount": 114,
       "episodeCount": 114,
       "totalEpisodeCount": 115,
-      "sizeOnDisk": 53798619012,
+      "sizeOnDisk": 53891857306,
       "releaseGroups": [
         "HETeam",
-        "MiNX"
+        "WvF"
       ],
       "percentOfEpisodes": 100
     },
@@ -30807,8 +30824,8 @@
     "status": "continuing",
     "ended": false,
     "overview": "Bad choices don\u2019t make a bad man. At least that\u2019s what Bode Donavan\u2019s been told. Midway through a five-year prison stretch, he\u2019s been trying to convince himself of it, too. He gets the chance to prove it, signing on to an unconventional prison-release program: in exchange for reduced sentences, convicts are paired with firefighters battling Northern California wildfires. The heat is turned up when Bode\u2019s assigned to the program in his rural hometown, the place where all his troubles began.",
-    "nextAiring": "2025-02-08T02:00:00Z",
-    "previousAiring": "2024-05-11T01:00:00Z",
+    "nextAiring": "2025-02-15T02:00:00Z",
+    "previousAiring": "2025-02-08T02:00:00Z",
     "network": "CBS",
     "airTime": "21:00",
     "images": [
@@ -30873,12 +30890,14 @@
         "seasonNumber": 3,
         "monitored": true,
         "statistics": {
-          "nextAiring": "2025-02-08T02:00:00Z",
-          "episodeFileCount": 9,
-          "episodeCount": 9,
-          "totalEpisodeCount": 12,
-          "sizeOnDisk": 3882979619,
+          "nextAiring": "2025-02-15T02:00:00Z",
+          "previousAiring": "2025-02-08T02:00:00Z",
+          "episodeFileCount": 10,
+          "episodeCount": 10,
+          "totalEpisodeCount": 14,
+          "sizeOnDisk": 4309971994,
           "releaseGroups": [
+            "JFF",
             "skyfire"
           ],
           "percentOfEpisodes": 100
@@ -30898,7 +30917,7 @@
     "tvMazeId": 60339,
     "tmdbId": 202297,
     "firstAired": "2022-10-07T00:00:00Z",
-    "lastAired": "2025-02-21T00:00:00Z",
+    "lastAired": "2025-03-07T00:00:00Z",
     "seriesType": "standard",
     "cleanTitle": "firecountry",
     "imdbId": "tt16098700",
@@ -30919,17 +30938,18 @@
     },
     "statistics": {
       "seasonCount": 3,
-      "episodeFileCount": 24,
-      "episodeCount": 41,
-      "totalEpisodeCount": 44,
-      "sizeOnDisk": 10023636866,
+      "episodeFileCount": 25,
+      "episodeCount": 42,
+      "totalEpisodeCount": 46,
+      "sizeOnDisk": 10450629241,
       "releaseGroups": [
         "KOGi",
         "MeGusta",
         "MiNX",
+        "JFF",
         "skyfire"
       ],
-      "percentOfEpisodes": 58.536585365853658536585365850
+      "percentOfEpisodes": 59.523809523809523809523809520
     },
     "languageProfileId": 1,
     "id": 314
@@ -33525,7 +33545,7 @@
         "statistics": {
           "episodeFileCount": 0,
           "episodeCount": 0,
-          "totalEpisodeCount": 9,
+          "totalEpisodeCount": 11,
           "sizeOnDisk": 0,
           "releaseGroups": [],
           "percentOfEpisodes": 0
@@ -33555,7 +33575,7 @@
           "episodeFileCount": 4,
           "episodeCount": 4,
           "totalEpisodeCount": 10,
-          "sizeOnDisk": 1206695575,
+          "sizeOnDisk": 1252931542,
           "releaseGroups": [
             "FLUX",
             "PSA"
@@ -33602,8 +33622,8 @@
       "seasonCount": 2,
       "episodeFileCount": 13,
       "episodeCount": 13,
-      "totalEpisodeCount": 28,
-      "sizeOnDisk": 5098634683,
+      "totalEpisodeCount": 30,
+      "sizeOnDisk": 5144870650,
       "releaseGroups": [
         "BORDURE",
         "FLUX",
@@ -34596,7 +34616,8 @@
     "status": "continuing",
     "ended": false,
     "overview": "The eclectic team of U.S. NCIS Agents and the Australian Federal Police (AFP) are grafted into a multi-national taskforce to keep naval crimes in check in the most contested patch of ocean on the planet.",
-    "nextAiring": "2025-02-08T01:00:00Z",
+    "nextAiring": "2025-02-15T01:00:00Z",
+    "previousAiring": "2025-02-08T01:00:00Z",
     "network": "Paramount\u002B",
     "airTime": "20:00",
     "images": [
@@ -34607,13 +34628,13 @@
       },
       {
         "coverType": "poster",
-        "url": "/MediaCover/349/poster.jpg?lastWrite=638330493632835293",
-        "remoteUrl": "https://artworks.thetvdb.com/banners/v4/series/416493/posters/652c71ebb10b9.jpg"
+        "url": "/MediaCover/349/poster.jpg?lastWrite=638745969956501327",
+        "remoteUrl": "https://artworks.thetvdb.com/banners/v4/series/416493/posters/678991be822a5.jpg"
       },
       {
         "coverType": "fanart",
-        "url": "/MediaCover/349/fanart.jpg?lastWrite=638727566848114894",
-        "remoteUrl": "https://artworks.thetvdb.com/banners/v4/series/416493/backgrounds/6789917ba8eb9.jpg"
+        "url": "/MediaCover/349/fanart.jpg?lastWrite=638745969957861158",
+        "remoteUrl": "https://artworks.thetvdb.com/banners/v4/series/416493/backgrounds/67a69abf26ad4.jpg"
       },
       {
         "coverType": "clearlogo",
@@ -34644,13 +34665,16 @@
         "seasonNumber": 2,
         "monitored": true,
         "statistics": {
-          "nextAiring": "2025-02-08T01:00:00Z",
-          "episodeFileCount": 0,
-          "episodeCount": 0,
+          "nextAiring": "2025-02-15T01:00:00Z",
+          "previousAiring": "2025-02-08T01:00:00Z",
+          "episodeFileCount": 1,
+          "episodeCount": 1,
           "totalEpisodeCount": 10,
-          "sizeOnDisk": 0,
-          "releaseGroups": [],
-          "percentOfEpisodes": 0
+          "sizeOnDisk": 273346386,
+          "releaseGroups": [
+            "skyfire"
+          ],
+          "percentOfEpisodes": 100
         }
       }
     ],
@@ -34688,12 +34712,13 @@
     },
     "statistics": {
       "seasonCount": 2,
-      "episodeFileCount": 8,
-      "episodeCount": 8,
+      "episodeFileCount": 9,
+      "episodeCount": 9,
       "totalEpisodeCount": 18,
-      "sizeOnDisk": 3912293712,
+      "sizeOnDisk": 4185640098,
       "releaseGroups": [
-        "YELLO"
+        "YELLO",
+        "skyfire"
       ],
       "percentOfEpisodes": 100
     },
@@ -38451,9 +38476,9 @@
           "episodeFileCount": 12,
           "episodeCount": 12,
           "totalEpisodeCount": 18,
-          "sizeOnDisk": 4813436437,
+          "sizeOnDisk": 4794084901,
           "releaseGroups": [
-            "JFF"
+            "SKYFiRE"
           ],
           "percentOfEpisodes": 100
         }
@@ -38498,9 +38523,9 @@
       "episodeFileCount": 12,
       "episodeCount": 12,
       "totalEpisodeCount": 18,
-      "sizeOnDisk": 4813436437,
+      "sizeOnDisk": 4794084901,
       "releaseGroups": [
-        "JFF"
+        "SKYFiRE"
       ],
       "percentOfEpisodes": 100
     },
@@ -39725,7 +39750,7 @@
     "monitored": true,
     "monitorNewItems": "all",
     "useSceneNumbering": false,
-    "runtime": 46,
+    "runtime": 45,
     "tvdbId": 393187,
     "tvRageId": 0,
     "tvMazeId": 52343,
@@ -40679,8 +40704,8 @@
     "status": "continuing",
     "ended": false,
     "overview": "When his bloodthirsty urges can\u0027t be ignored any longer, Dexter must learn to channel his inner darkness. With the guidance of his father, Harry, he adopts a Code designed to help him find and kill people who deserve to be eliminated from society without getting on law enforcements\u0027 radar. This is a particular challenge for young Dexter as he begins a forensics internship at the Miami Metro Police Department.",
-    "nextAiring": "2025-02-10T03:00:00Z",
-    "previousAiring": "2025-02-03T03:00:00Z",
+    "nextAiring": "2025-02-17T03:00:00Z",
+    "previousAiring": "2025-02-10T03:00:00Z",
     "network": "Paramount\u002B with Showtime",
     "airTime": "22:00",
     "images": [
@@ -40714,18 +40739,18 @@
         "seasonNumber": 1,
         "monitored": true,
         "statistics": {
-          "nextAiring": "2025-02-10T03:00:00Z",
-          "previousAiring": "2025-02-03T03:00:00Z",
+          "nextAiring": "2025-02-17T03:00:00Z",
+          "previousAiring": "2025-02-10T03:00:00Z",
           "episodeFileCount": 9,
           "episodeCount": 9,
           "totalEpisodeCount": 10,
-          "sizeOnDisk": 4484829170,
+          "sizeOnDisk": 4432466128,
           "releaseGroups": [
             "DiRT",
             "MiNX",
-            "MP4",
             "NTb",
-            "skyfire"
+            "skyfire",
+            "y2flix"
           ],
           "percentOfEpisodes": 100
         }
@@ -40738,7 +40763,7 @@
     "monitored": true,
     "monitorNewItems": "all",
     "useSceneNumbering": false,
-    "runtime": 52,
+    "runtime": 51,
     "tvdbId": 430780,
     "tvRageId": 0,
     "tvMazeId": 67316,
@@ -40766,13 +40791,13 @@
       "episodeFileCount": 9,
       "episodeCount": 9,
       "totalEpisodeCount": 10,
-      "sizeOnDisk": 4484829170,
+      "sizeOnDisk": 4432466128,
       "releaseGroups": [
         "DiRT",
         "MiNX",
-        "MP4",
         "NTb",
-        "skyfire"
+        "skyfire",
+        "y2flix"
       ],
       "percentOfEpisodes": 100
     },
@@ -41367,8 +41392,8 @@
       },
       {
         "coverType": "fanart",
-        "url": "/MediaCover/402/fanart.jpg?lastWrite=638745091185779866",
-        "remoteUrl": "https://artworks.thetvdb.com/banners/v4/series/452385/backgrounds/67a2bb3ad0ba3.jpg"
+        "url": "/MediaCover/402/fanart.jpg?lastWrite=638745971465809238",
+        "remoteUrl": "https://artworks.thetvdb.com/banners/v4/series/452385/backgrounds/67a2bb5778a3e.jpg"
       },
       {
         "coverType": "clearlogo",
@@ -41988,8 +42013,8 @@
     "title": "London Kills",
     "alternateTitles": [],
     "sortTitle": "london kills",
-    "status": "continuing",
-    "ended": false,
+    "status": "ended",
+    "ended": true,
     "overview": "London Kills tells the story of a team of top murder detectives, shot like a documentary. Each episode features a different murder in addition to a serialized story involving the lead detective\u2019s missing wife.",
     "network": "Acorn TV",
     "airTime": "03:00",
@@ -45917,7 +45942,7 @@
     "tvdbId": 414721,
     "tvRageId": 0,
     "tvMazeId": 43235,
-    "tmdbId": 0,
+    "tmdbId": 118663,
     "firstAired": "2022-04-24T00:00:00Z",
     "lastAired": "2022-07-03T00:00:00Z",
     "seriesType": "standard",

@@ -1,0 +1,36 @@
+{
+  "id": 34307,
+  "results": {
+    "BE": {
+      "link": "https://www.themoviedb.org/tv/34307-shameless/watch?locale=BE",
+      "buy": [
+        {
+          "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+          "provider_id": 35,
+          "provider_name": "Rakuten TV",
+          "display_priority": 10
+        }
+      ],
+      "flatrate": [
+        {
+          "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+          "provider_id": 8,
+          "provider_name": "Netflix",
+          "display_priority": 1
+        },
+        {
+          "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+          "provider_id": 119,
+          "provider_name": "Amazon Prime Video",
+          "display_priority": 2
+        },
+        {
+          "logo_path": "/fksCUZ9QDWZMUwL2LgMtLckROUN.jpg",
+          "provider_id": 1899,
+          "provider_name": "Max",
+          "display_priority": 65
+        }
+      ]
+    }
+  }
+}

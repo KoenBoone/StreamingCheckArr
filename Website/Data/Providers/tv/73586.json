@@ -1,0 +1,22 @@
+{
+  "id": 73586,
+  "results": {
+    "BE": {
+      "link": "https://www.themoviedb.org/tv/73586-yellowstone/watch?locale=BE",
+      "flatrate": [
+        {
+          "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+          "provider_id": 8,
+          "provider_name": "Netflix",
+          "display_priority": 1
+        },
+        {
+          "logo_path": "/kwftIxtjuCAROIcdd53UEjzSmca.jpg",
+          "provider_id": 1857,
+          "provider_name": "Telenet",
+          "display_priority": 34
+        }
+      ]
+    }
+  }
+}

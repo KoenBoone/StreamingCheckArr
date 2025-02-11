@@ -1,0 +1,38 @@
+﻿@model List<string>
+@{
+    string strLastModified = "";
+    string strIcon = "fas fa-check";
+    if (ViewBag.LastModified == null)
+    {
+        strLastModified = "Not checked yet or not found";
+        strIcon = "fas fa-question text-green";
+    }
+    else
+    {
+        strLastModified = "Last checked: " + ViewBag.LastModified.ToString();
+        strIcon = "fas fa-ban text-red";
+    }
+}
+<div>
+    <div>
+        @{
+            //if the model is not empty
+            if (Model.Count > 0)
+            {
+                //loop through the model
+                foreach (var item in Model)
+                {
+                    //display the image
+                    <img src="@item" class="img-rounded img-size-32 mr-2" />
+                }
+            }
+            else
+            {
+                <span class="@strIcon"></span>
+            }
+        }
+    </div>
+    <div>
+        <small>@strLastModified</small>
+    </div>
+</div>

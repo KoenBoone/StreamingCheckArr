@@ -1,0 +1,24 @@
+{
+  "id": 95396,
+  "results": {
+    "BE": {
+      "link": "https://www.themoviedb.org/tv/95396-severance/watch?locale=BE",
+      "free": [
+        {
+          "logo_path": "/2E03IAZsX4ZaUqM7tXlctEPMGWS.jpg",
+          "provider_id": 350,
+          "provider_name": "Apple TV Plus",
+          "display_priority": 9
+        }
+      ],
+      "flatrate": [
+        {
+          "logo_path": "/2E03IAZsX4ZaUqM7tXlctEPMGWS.jpg",
+          "provider_id": 350,
+          "provider_name": "Apple TV Plus",
+          "display_priority": 9
+        }
+      ]
+    }
+  }
+}

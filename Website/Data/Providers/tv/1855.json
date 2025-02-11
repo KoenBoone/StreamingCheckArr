@@ -1,0 +1,16 @@
+{
+  "id": 1855,
+  "results": {
+    "BE": {
+      "link": "https://www.themoviedb.org/tv/1855-star-trek-voyager/watch?locale=BE",
+      "flatrate": [
+        {
+          "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+          "provider_id": 8,
+          "provider_name": "Netflix",
+          "display_priority": 1
+        }
+      ]
+    }
+  }
+}

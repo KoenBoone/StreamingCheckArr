@@ -1,0 +1,130 @@
+﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
+@using StreamingCheckArr.Core.Models
+@using StreamingCheckArr.Website.Components
+@model IEnumerable<StreamingCheckArr.Core.Models.SonarrSeries>
+
+@{
+    ViewData["Title"] = "Sonarr Series";
+    configParameters cp = new configParameters();
+}
+
+<h1>Sonarr series</h1>
+
+<p>
+    <a asp-controller="Series" asp-action="Index" asp-route-getNew="true">Refresh all from Sonarr</a> |
+    <a asp-controller="Series" asp-action="GetStreamersAll">Refresh all streaming info (use carefully!)</a>
+</p>
+
+<div class="card">
+    <div class="card-header border-0">
+        <!--<h3 class="card-title">Sonarr Series</h3>-->
+        <input type="text" id="searchInput" onkeyup="searchSeries()" placeholder="Search for series..">
+        <button type="button" onclick="clearSearch()">Clear search</button>
+        <div class="card-tools">
+            
+        </div>
+
+        <script>
+            function clearSearch() {
+                document.getElementById("searchInput").value = "";
+                searchSeries();
+            }
+        </script>
+    </div>
+    <div class="card-body table-responsive p-0">
+        <table class="table table-striped table-valign-middle" id="seriesTable">
+            <thead>
+            <tr>
+                <th>Series</th>
+                <th>tvdb ID</th>
+                <th>tmdb ID</th>
+                <th>imdb ID</th>
+                <th>Sonar ID</th> 
+                <th>Flatrate or free streaming in @cp.CountryCode</th>
+                <th>Actions</th>
+            </tr>
+            </thead>
+            <tbody>
+            @foreach (var item in Model) {
+                string localPoster = "http://" + cp.SonarrIp + ":" + cp.SonarrPort + item.localPoster;
+                string tmdbUrl = "https://www.themoviedb.org/tv/" + item.tmdbId;
+                string streamingInfoDiv = item.tmdbId + "_StreamingInfo";
+                <tr>
+                    <td>
+                        <img src="@localPoster" alt="Poster" class="img-rounded img-size-64 mr-2">
+                        @item.title (@item.year)
+                    </td>
+                    <td>
+                        @item.tvdbId
+                    </td>
+                    <td>
+                        <a href="@tmdbUrl" target="_blank">@item.tmdbId</a>
+                    </td>
+                    <td>
+                        @item.imdbId
+                    </td>
+                    <td>
+                        @item.id
+                    </td>
+                    <td>
+                        <div id="@streamingInfoDiv">
+                                @await (Component.InvokeAsync<StreamersViewComponent>(new { tmdbID = item.tmdbId }))
+                        </div>
+                    </td>
+                    <td>
+                        @if (item.tmdbId == 0)
+                        {
+                            <span class="text-red">No TMDB ID |</span>
+                        }
+                        else
+                        {
+                            <span>
+                                <a href="javascript:void(0);" onclick="updateStreamingInfo(@item.tmdbId)">Update Streaming</a>
+                                |</span>
+                        }
+                        Delete from Sonarr
+                        <!--@Html.ActionLink("Delete from Sonarr", "Delete", new
+                        {
+                            /* id=item.PrimaryKey */
+                        })-->
+                    </td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function updateStreamingInfo(tmdbID) {
+            var streamingInfoDiv = tmdbID + "_StreamingInfo";
+            document.getElementById(streamingInfoDiv).innerHTML = "checking";
+            fetch(`/Series/RefreshStreamers?tmdbID=${tmdbID}`)
+                .then(response => response.text())
+                .then(html => {
+                    document.getElementById(streamingInfoDiv).innerHTML = html;
+                })
+                .catch(error => document.getElementById(streamingInfoDiv).innerHTML = 'Error loading streamers:' + error);
+        }
+
+        function searchSeries() {
+            var input, filter, table, tr, td, i, txtValue;
+            input = document.getElementById("searchInput");
+            filter = input.value.toUpperCase();
+            table = document.getElementById("seriesTable");
+            tr = table.getElementsByTagName("tr");
+            for (i = 1; i < tr.length; i++) {
+                td = tr[i].getElementsByTagName("td")[0];
+                if (td) {
+                    txtValue = td.textContent || td.innerText;
+                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        tr[i].style.display = "";
+                    } else {
+                        tr[i].style.display = "none";
+                    }
+                }       
+            }
+        }
+    </script>
+}
