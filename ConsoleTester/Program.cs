@@ -34,6 +34,9 @@ Console.WriteLine(cp.TMDBApi);
 Console.WriteLine(cp.TMDBToken);
 Console.WriteLine(cp.CountryCode);
 
+//create a new sonarr client
+//SonarrClient sc = new SonarrClient();
+
 //get the series from sonarr
 //var series = sc.getSeries().Result;
 //var series = sc.lookupSeries("Bleu Bloods").Result;
@@ -45,10 +48,37 @@ Console.WriteLine(cp.CountryCode);
 }*/
 
 //check tmdb for outlander: id 56570
-var tmdbclient = new tmdbClient();
+/*var tmdbclient = new tmdbClient();
 var json = tmdbclient.getStreaming("tv", 56570, true);
 Console.WriteLine(json.Result);
+*/
 
+//create a new radarr client
+RadarrClient rc = new RadarrClient();
 
+//get the movies from radarr
+//var movies = rc.getMovies().Result;
+
+//write the title of each movie to the console
+/*
+foreach (var m in movies)
+
+{
+    Console.WriteLine(m.title + " " + m.year + " " + m.localPoster + " ---- " + m.remotePoster);
+}
+*/
+
+//check tmdb for Beverly Hills Chihuahua 2: id 54540
+var tmdbclient = new tmdbClient();
+var json = tmdbclient.getStreaming("movie", 54540, true);
+Console.WriteLine(json.Result);
+
+//lookup a movie in radarr: Beverly Hills Chihuahua 2: id 54540
+var movie = rc.lookupMovie("Beverly Hills").Result;
+//write the title of each found movie to the console
+foreach(var m in movie)
+{
+    Console.WriteLine(m.title + " " + m.year + " " + m.localPoster + " ---- " + m.remotePoster);
+}   
 
 Console.ReadLine();
