@@ -26359,7 +26359,7 @@
     "status": "continuing",
     "ended": false,
     "overview": "Detective Charlie Hudson, a cunning Major Crimes detective for the St. John\u2019s Police Department, teams up with an unusual partner \u2013 Rex, a former-K9 German Shepherd, whose heightened senses keep Charlie hot on the trail of his suspects. Together, they investigate puzzling crimes, from a kidnapping which reveals a much larger conspiracy at play to an art theft murder which runs deep into the world of high society. With Charlie\u2019s deft detective work and Rex\u2019s keen canine senses, this crime-fighting pair is unstoppable.",
-    "nextAiring": "2025-02-26T01:00:00Z",
+    "nextAiring": "2025-02-19T01:00:00Z",
     "previousAiring": "2025-02-12T01:00:00Z",
     "network": "CityTV",
     "airTime": "20:00",
@@ -26478,7 +26478,7 @@
         "seasonNumber": 7,
         "monitored": true,
         "statistics": {
-          "nextAiring": "2025-02-26T01:00:00Z",
+          "nextAiring": "2025-02-19T01:00:00Z",
           "previousAiring": "2025-02-12T01:00:00Z",
           "episodeFileCount": 5,
           "episodeCount": 5,
@@ -26504,7 +26504,7 @@
     "tvMazeId": 39049,
     "tmdbId": 87940,
     "firstAired": "2019-03-25T00:00:00Z",
-    "lastAired": "2025-03-18T00:00:00Z",
+    "lastAired": "2025-03-11T00:00:00Z",
     "seriesType": "standard",
     "cleanTitle": "hudsonrex",
     "imdbId": "tt9111220",
@@ -27086,7 +27086,7 @@
           "episodeFileCount": 11,
           "episodeCount": 11,
           "totalEpisodeCount": 14,
-          "sizeOnDisk": 4741294397,
+          "sizeOnDisk": 4766291119,
           "releaseGroups": [
             "JFF",
             "SKYFiRE",
@@ -27136,7 +27136,7 @@
       "episodeFileCount": 49,
       "episodeCount": 124,
       "totalEpisodeCount": 127,
-      "sizeOnDisk": 18015923894,
+      "sizeOnDisk": 18040920616,
       "releaseGroups": [
         "MeGusta",
         "Megusta",
@@ -30075,7 +30075,7 @@
           "episodeFileCount": 10,
           "episodeCount": 10,
           "totalEpisodeCount": 10,
-          "sizeOnDisk": 5095094532,
+          "sizeOnDisk": 5054740454,
           "releaseGroups": [
             "SKYFiRE"
           ],
@@ -30137,7 +30137,7 @@
       "episodeFileCount": 16,
       "episodeCount": 16,
       "totalEpisodeCount": 116,
-      "sizeOnDisk": 8020247492,
+      "sizeOnDisk": 7979893414,
       "releaseGroups": [
         "SKYFiRE",
         "Z-B"
@@ -45840,7 +45840,7 @@
         "statistics": {
           "episodeFileCount": 0,
           "episodeCount": 0,
-          "totalEpisodeCount": 12,
+          "totalEpisodeCount": 10,
           "sizeOnDisk": 0,
           "releaseGroups": [],
           "percentOfEpisodes": 0
@@ -45860,7 +45860,7 @@
     "tvMazeId": 16579,
     "tmdbId": 69478,
     "firstAired": "2017-04-26T00:00:00Z",
-    "lastAired": "2025-04-08T00:00:00Z",
+    "lastAired": "2022-11-09T00:00:00Z",
     "seriesType": "standard",
     "cleanTitle": "thehandmaidstale",
     "imdbId": "tt5834204",
@@ -45882,7 +45882,7 @@
       "seasonCount": 5,
       "episodeFileCount": 4,
       "episodeCount": 4,
-      "totalEpisodeCount": 109,
+      "totalEpisodeCount": 107,
       "sizeOnDisk": 1735961536,
       "releaseGroups": [
         "YELLOWBiRD"
