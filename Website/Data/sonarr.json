@@ -6447,6 +6447,10 @@
       {
         "title": "Il trono di spade",
         "seasonNumber": -1
+      },
+      {
+        "title": "Game of Thrones - Das Lied von Eis und Feuer",
+        "seasonNumber": -1
       }
     ],
     "sortTitle": "game of thrones",
@@ -10786,9 +10790,9 @@
           "episodeFileCount": 4,
           "episodeCount": 4,
           "totalEpisodeCount": 4,
-          "sizeOnDisk": 2298829366,
+          "sizeOnDisk": 2423835387,
           "releaseGroups": [
-            "MeGusta"
+            "d3g"
           ],
           "percentOfEpisodes": 100
         }
@@ -10836,10 +10840,10 @@
           "episodeFileCount": 7,
           "episodeCount": 7,
           "totalEpisodeCount": 7,
-          "sizeOnDisk": 4857889339,
+          "sizeOnDisk": 4931943835,
           "releaseGroups": [
             "d3g",
-            "MeGusta"
+            "DiRT"
           ],
           "percentOfEpisodes": 100
         }
@@ -10875,8 +10879,10 @@
           "episodeFileCount": 8,
           "episodeCount": 8,
           "totalEpisodeCount": 8,
-          "sizeOnDisk": 4966478533,
-          "releaseGroups": [],
+          "sizeOnDisk": 5237422538,
+          "releaseGroups": [
+            "d3g"
+          ],
           "percentOfEpisodes": 100
         }
       },
@@ -10899,8 +10905,10 @@
           "episodeFileCount": 7,
           "episodeCount": 7,
           "totalEpisodeCount": 7,
-          "sizeOnDisk": 4252661255,
-          "releaseGroups": [],
+          "sizeOnDisk": 5042189568,
+          "releaseGroups": [
+            "d3g"
+          ],
           "percentOfEpisodes": 100
         }
       },
@@ -10963,8 +10971,10 @@
           "episodeFileCount": 4,
           "episodeCount": 4,
           "totalEpisodeCount": 4,
-          "sizeOnDisk": 2349335767,
-          "releaseGroups": [],
+          "sizeOnDisk": 2765156677,
+          "releaseGroups": [
+            "BRMP"
+          ],
           "percentOfEpisodes": 100
         }
       },
@@ -10975,8 +10985,10 @@
           "episodeFileCount": 6,
           "episodeCount": 6,
           "totalEpisodeCount": 6,
-          "sizeOnDisk": 4004562153,
-          "releaseGroups": [],
+          "sizeOnDisk": 4838548875,
+          "releaseGroups": [
+            "BRMP"
+          ],
           "percentOfEpisodes": 100
         }
       },
@@ -10987,8 +10999,11 @@
           "episodeFileCount": 6,
           "episodeCount": 6,
           "totalEpisodeCount": 6,
-          "sizeOnDisk": 2831713861,
-          "releaseGroups": [],
+          "sizeOnDisk": 4690404866,
+          "releaseGroups": [
+            "CiNEFiLE",
+            "NTb"
+          ],
           "percentOfEpisodes": 100
         }
       },
@@ -11100,11 +11115,14 @@
       "episodeFileCount": 141,
       "episodeCount": 155,
       "totalEpisodeCount": 160,
-      "sizeOnDisk": 94978608074,
+      "sizeOnDisk": 99346639546,
       "releaseGroups": [
-        "MeGusta",
         "d3g",
+        "DiRT",
         "YELLOWBiRD",
+        "BRMP",
+        "CiNEFiLE",
+        "NTb",
         "BORDURE",
         "GalaxyTV"
       ],
@@ -24158,7 +24176,7 @@
     "tvdbId": 222701,
     "tvRageId": 27442,
     "tvMazeId": 0,
-    "tmdbId": 38460,
+    "tmdbId": 0,
     "firstAired": "2011-01-16T00:00:00Z",
     "lastAired": "2011-01-16T00:00:00Z",
     "seriesType": "standard",
@@ -26341,8 +26359,8 @@
     "status": "continuing",
     "ended": false,
     "overview": "Detective Charlie Hudson, a cunning Major Crimes detective for the St. John\u2019s Police Department, teams up with an unusual partner \u2013 Rex, a former-K9 German Shepherd, whose heightened senses keep Charlie hot on the trail of his suspects. Together, they investigate puzzling crimes, from a kidnapping which reveals a much larger conspiracy at play to an art theft murder which runs deep into the world of high society. With Charlie\u2019s deft detective work and Rex\u2019s keen canine senses, this crime-fighting pair is unstoppable.",
-    "nextAiring": "2025-02-12T01:00:00Z",
-    "previousAiring": "2025-02-05T01:00:00Z",
+    "nextAiring": "2025-02-26T01:00:00Z",
+    "previousAiring": "2025-02-12T01:00:00Z",
     "network": "CityTV",
     "airTime": "20:00",
     "images": [
@@ -26460,12 +26478,12 @@
         "seasonNumber": 7,
         "monitored": true,
         "statistics": {
-          "nextAiring": "2025-02-12T01:00:00Z",
-          "previousAiring": "2025-02-05T01:00:00Z",
-          "episodeFileCount": 4,
-          "episodeCount": 4,
+          "nextAiring": "2025-02-26T01:00:00Z",
+          "previousAiring": "2025-02-12T01:00:00Z",
+          "episodeFileCount": 5,
+          "episodeCount": 5,
           "totalEpisodeCount": 9,
-          "sizeOnDisk": 2154718835,
+          "sizeOnDisk": 2669856162,
           "releaseGroups": [
             "NTb"
           ],
@@ -26486,7 +26504,7 @@
     "tvMazeId": 39049,
     "tmdbId": 87940,
     "firstAired": "2019-03-25T00:00:00Z",
-    "lastAired": "2025-03-11T00:00:00Z",
+    "lastAired": "2025-03-18T00:00:00Z",
     "seriesType": "standard",
     "cleanTitle": "hudsonrex",
     "imdbId": "tt9111220",
@@ -26510,16 +26528,16 @@
     },
     "statistics": {
       "seasonCount": 7,
-      "episodeFileCount": 48,
-      "episodeCount": 104,
+      "episodeFileCount": 49,
+      "episodeCount": 105,
       "totalEpisodeCount": 109,
-      "sizeOnDisk": 18817233124,
+      "sizeOnDisk": 19332370451,
       "releaseGroups": [
         "MeGusta",
         "NTb",
         "MiNX"
       ],
-      "percentOfEpisodes": 46.153846153846153846153846150
+      "percentOfEpisodes": 46.666666666666666666666666670
     },
     "languageProfileId": 1,
     "id": 267
@@ -26946,8 +26964,8 @@
     "status": "continuing",
     "ended": false,
     "overview": "The New York office of the FBI brings to bear all their talents, intellect and technical expertise on major cases in order to keep their city and the country safe.",
-    "nextAiring": "2025-02-12T01:00:00Z",
-    "previousAiring": "2025-02-05T01:00:00Z",
+    "nextAiring": "2025-02-19T01:00:00Z",
+    "previousAiring": "2025-02-12T01:00:00Z",
     "network": "CBS",
     "airTime": "20:00",
     "images": [
@@ -27063,15 +27081,16 @@
         "seasonNumber": 7,
         "monitored": true,
         "statistics": {
-          "nextAiring": "2025-02-12T01:00:00Z",
-          "previousAiring": "2025-02-05T01:00:00Z",
-          "episodeFileCount": 10,
-          "episodeCount": 10,
+          "nextAiring": "2025-02-19T01:00:00Z",
+          "previousAiring": "2025-02-12T01:00:00Z",
+          "episodeFileCount": 11,
+          "episodeCount": 11,
           "totalEpisodeCount": 14,
-          "sizeOnDisk": 4352316719,
+          "sizeOnDisk": 4741294397,
           "releaseGroups": [
             "JFF",
-            "SKYFiRE"
+            "SKYFiRE",
+            "Z-B"
           ],
           "percentOfEpisodes": 100
         }
@@ -27090,7 +27109,7 @@
     "tvMazeId": 32158,
     "tmdbId": 80748,
     "firstAired": "2018-09-25T00:00:00Z",
-    "lastAired": "2025-03-04T00:00:00Z",
+    "lastAired": "2025-03-11T00:00:00Z",
     "seriesType": "standard",
     "cleanTitle": "fbi",
     "imdbId": "tt7491982",
@@ -27114,18 +27133,19 @@
     },
     "statistics": {
       "seasonCount": 7,
-      "episodeFileCount": 48,
-      "episodeCount": 123,
+      "episodeFileCount": 49,
+      "episodeCount": 124,
       "totalEpisodeCount": 127,
-      "sizeOnDisk": 17626946216,
+      "sizeOnDisk": 18015923894,
       "releaseGroups": [
         "MeGusta",
         "Megusta",
         "PSA",
         "JFF",
-        "SKYFiRE"
+        "SKYFiRE",
+        "Z-B"
       ],
-      "percentOfEpisodes": 39.024390243902439024390243900
+      "percentOfEpisodes": 39.516129032258064516129032260
     },
     "languageProfileId": 1,
     "id": 273
@@ -29956,8 +29976,8 @@
     "status": "continuing",
     "ended": false,
     "overview": "Starting over isn\u2019t easy, especially for small-town guy John Nolan who, after a life-altering incident, is pursuing his dream of being a Los Angeles police officer. As the force\u2019s oldest rookie, he\u2019s met with skepticism from some higher-ups who see him as just a walking midlife crisis. If he can\u2019t keep up with the young cops and the criminals, he\u2019ll be risking lives including his own. But if he can use his life experience, determination and sense of humor to give him an edge, he may just become a success in this new chapter of his life.",
-    "nextAiring": "2025-02-12T03:00:00Z",
-    "previousAiring": "2025-02-05T03:00:00Z",
+    "nextAiring": "2025-02-19T03:00:00Z",
+    "previousAiring": "2025-02-12T03:00:00Z",
     "network": "ABC (US)",
     "airTime": "22:00",
     "images": [
@@ -30055,9 +30075,9 @@
           "episodeFileCount": 10,
           "episodeCount": 10,
           "totalEpisodeCount": 10,
-          "sizeOnDisk": 4426983011,
+          "sizeOnDisk": 5095094532,
           "releaseGroups": [
-            "MiNX"
+            "SKYFiRE"
           ],
           "percentOfEpisodes": 100
         }
@@ -30066,16 +30086,15 @@
         "seasonNumber": 7,
         "monitored": true,
         "statistics": {
-          "nextAiring": "2025-02-12T03:00:00Z",
-          "previousAiring": "2025-02-05T03:00:00Z",
-          "episodeFileCount": 5,
-          "episodeCount": 5,
+          "nextAiring": "2025-02-19T03:00:00Z",
+          "previousAiring": "2025-02-12T03:00:00Z",
+          "episodeFileCount": 6,
+          "episodeCount": 6,
           "totalEpisodeCount": 8,
-          "sizeOnDisk": 2290270860,
+          "sizeOnDisk": 2925152960,
           "releaseGroups": [
-            "FLUX",
-            "JFF",
-            "y2flix"
+            "SKYFiRE",
+            "Z-B"
           ],
           "percentOfEpisodes": 100
         }
@@ -30115,15 +30134,13 @@
     },
     "statistics": {
       "seasonCount": 7,
-      "episodeFileCount": 15,
-      "episodeCount": 15,
+      "episodeFileCount": 16,
+      "episodeCount": 16,
       "totalEpisodeCount": 116,
-      "sizeOnDisk": 6717253871,
+      "sizeOnDisk": 8020247492,
       "releaseGroups": [
-        "MiNX",
-        "FLUX",
-        "JFF",
-        "y2flix"
+        "SKYFiRE",
+        "Z-B"
       ],
       "percentOfEpisodes": 100
     },
@@ -31189,7 +31206,7 @@
     "sortTitle": "lioness",
     "status": "continuing",
     "ended": false,
-    "overview": "Cruz Manuelos, a rough-around-the-edges but passionate young Marine, is recruited to join the CIA\u2019s Lioness Engagement Team to help bring down a terrorist organization from within. Joe, the station chief of the Lioness program is tasked with training, managing and leading her female undercover operatives.",
+    "overview": "Cruz Manuelos, a rough-around-the-edges but passionate young Marine, is recruited to join the CIA\u2019s Lioness Engagement Team to help bring down a terrorist organization from within. Joe, the station chief of the Lioness program, is tasked with training, managing and leading her female undercover operatives.",
     "previousAiring": "2024-11-24T08:00:00Z",
     "network": "Paramount\u002B",
     "airTime": "03:00",
@@ -33508,10 +33525,10 @@
     "status": "continuing",
     "ended": false,
     "overview": "Mark leads a team of office workers whose memories have been surgically divided between their work and personal lives. When a mysterious colleague appears outside of work, it begins a journey to discover the truth about their jobs.",
-    "nextAiring": "2025-02-14T05:00:00Z",
-    "previousAiring": "2025-02-07T05:00:00Z",
+    "nextAiring": "2025-02-14T02:00:00Z",
+    "previousAiring": "2025-02-07T02:00:00Z",
     "network": "Apple TV\u002B",
-    "airTime": "00:00",
+    "airTime": "21:00",
     "images": [
       {
         "coverType": "banner",
@@ -33545,7 +33562,7 @@
         "statistics": {
           "episodeFileCount": 0,
           "episodeCount": 0,
-          "totalEpisodeCount": 11,
+          "totalEpisodeCount": 12,
           "sizeOnDisk": 0,
           "releaseGroups": [],
           "percentOfEpisodes": 0
@@ -33555,7 +33572,7 @@
         "seasonNumber": 1,
         "monitored": true,
         "statistics": {
-          "previousAiring": "2022-04-08T04:00:00Z",
+          "previousAiring": "2022-04-09T01:00:00Z",
           "episodeFileCount": 9,
           "episodeCount": 9,
           "totalEpisodeCount": 9,
@@ -33570,8 +33587,8 @@
         "seasonNumber": 2,
         "monitored": true,
         "statistics": {
-          "nextAiring": "2025-02-14T05:00:00Z",
-          "previousAiring": "2025-02-07T05:00:00Z",
+          "nextAiring": "2025-02-14T02:00:00Z",
+          "previousAiring": "2025-02-07T02:00:00Z",
           "episodeFileCount": 4,
           "episodeCount": 4,
           "totalEpisodeCount": 10,
@@ -33597,7 +33614,7 @@
     "tvMazeId": 44933,
     "tmdbId": 95396,
     "firstAired": "2022-02-18T00:00:00Z",
-    "lastAired": "2025-03-21T00:00:00Z",
+    "lastAired": "2025-03-20T00:00:00Z",
     "seriesType": "standard",
     "cleanTitle": "severance",
     "imdbId": "tt11280740",
@@ -33622,7 +33639,7 @@
       "seasonCount": 2,
       "episodeFileCount": 13,
       "episodeCount": 13,
-      "totalEpisodeCount": 30,
+      "totalEpisodeCount": 31,
       "sizeOnDisk": 5144870650,
       "releaseGroups": [
         "BORDURE",
@@ -38441,8 +38458,8 @@
     "status": "continuing",
     "ended": false,
     "overview": "In 1991, years prior to the events of \u0022NCIS,\u0022 a young Leroy Jethro Gibbs starts his career as a newly minted special agent at the fledgling NCIS Camp Pendleton office where he forges his place on a gritty, ragtag team led by NCIS legend Mike Franks.",
-    "nextAiring": "2025-02-11T03:00:00Z",
-    "previousAiring": "2025-02-04T03:00:00Z",
+    "nextAiring": "2025-02-25T03:00:00Z",
+    "previousAiring": "2025-02-11T03:00:00Z",
     "network": "CBS",
     "airTime": "22:00",
     "images": [
@@ -38471,13 +38488,14 @@
         "seasonNumber": 1,
         "monitored": true,
         "statistics": {
-          "nextAiring": "2025-02-11T03:00:00Z",
-          "previousAiring": "2025-02-04T03:00:00Z",
-          "episodeFileCount": 12,
-          "episodeCount": 12,
+          "nextAiring": "2025-02-25T03:00:00Z",
+          "previousAiring": "2025-02-11T03:00:00Z",
+          "episodeFileCount": 13,
+          "episodeCount": 13,
           "totalEpisodeCount": 18,
-          "sizeOnDisk": 4794084901,
+          "sizeOnDisk": 5206292109,
           "releaseGroups": [
+            "JFF",
             "SKYFiRE"
           ],
           "percentOfEpisodes": 100
@@ -38520,11 +38538,12 @@
     },
     "statistics": {
       "seasonCount": 1,
-      "episodeFileCount": 12,
-      "episodeCount": 12,
+      "episodeFileCount": 13,
+      "episodeCount": 13,
       "totalEpisodeCount": 18,
-      "sizeOnDisk": 4794084901,
+      "sizeOnDisk": 5206292109,
       "releaseGroups": [
+        "JFF",
         "SKYFiRE"
       ],
       "percentOfEpisodes": 100
@@ -45821,7 +45840,7 @@
         "statistics": {
           "episodeFileCount": 0,
           "episodeCount": 0,
-          "totalEpisodeCount": 10,
+          "totalEpisodeCount": 12,
           "sizeOnDisk": 0,
           "releaseGroups": [],
           "percentOfEpisodes": 0
@@ -45841,7 +45860,7 @@
     "tvMazeId": 16579,
     "tmdbId": 69478,
     "firstAired": "2017-04-26T00:00:00Z",
-    "lastAired": "2022-11-09T00:00:00Z",
+    "lastAired": "2025-04-08T00:00:00Z",
     "seriesType": "standard",
     "cleanTitle": "thehandmaidstale",
     "imdbId": "tt5834204",
@@ -45863,7 +45882,7 @@
       "seasonCount": 5,
       "episodeFileCount": 4,
       "episodeCount": 4,
-      "totalEpisodeCount": 107,
+      "totalEpisodeCount": 109,
       "sizeOnDisk": 1735961536,
       "releaseGroups": [
         "YELLOWBiRD"
@@ -46399,5 +46418,313 @@
     },
     "languageProfileId": 1,
     "id": 475
+  },
+  {
+    "title": "Long Bright River",
+    "alternateTitles": [],
+    "sortTitle": "long bright river",
+    "status": "upcoming",
+    "ended": false,
+    "overview": "Long Bright River tells the story of Mickey, a police officer who patrols a Philadelphia neighborhood hard-hit by the opioid crisis. When a series of murders begins in the neighborhood, Mickey realizes that her personal history might be related to the case.",
+    "nextAiring": "2025-03-13T04:00:00Z",
+    "network": "Peacock",
+    "airTime": "00:00",
+    "images": [
+      {
+        "coverType": "banner",
+        "url": "/MediaCover/476/banner.jpg?lastWrite=638749156897327639",
+        "remoteUrl": "https://artworks.thetvdb.com/banners/v4/series/445284/banners/67a7b5fbf14e6.jpg"
+      },
+      {
+        "coverType": "poster",
+        "url": "/MediaCover/476/poster.jpg?lastWrite=638749156897927612",
+        "remoteUrl": "https://artworks.thetvdb.com/banners/v4/series/445284/posters/67997ece9f9ea.jpg"
+      },
+      {
+        "coverType": "fanart",
+        "url": "/MediaCover/476/fanart.jpg?lastWrite=638749156898672218",
+        "remoteUrl": "https://artworks.thetvdb.com/banners/v4/series/445284/backgrounds/6799793cd2502.jpg"
+      }
+    ],
+    "originalLanguage": {
+      "id": 1,
+      "name": "English"
+    },
+    "seasons": [
+      {
+        "seasonNumber": 1,
+        "monitored": true,
+        "statistics": {
+          "nextAiring": "2025-03-13T04:00:00Z",
+          "episodeFileCount": 0,
+          "episodeCount": 0,
+          "totalEpisodeCount": 8,
+          "sizeOnDisk": 0,
+          "releaseGroups": [],
+          "percentOfEpisodes": 0
+        }
+      }
+    ],
+    "year": 2025,
+    "path": "\\\\192.168.0.91\\10 Audio_Video\\02 tv shows\\Long Bright River (2025) {tvdb-445284}",
+    "qualityProfileId": 7,
+    "seasonFolder": true,
+    "monitored": true,
+    "monitorNewItems": "all",
+    "useSceneNumbering": false,
+    "runtime": 0,
+    "tvdbId": 445284,
+    "tvRageId": 0,
+    "tvMazeId": 74271,
+    "tmdbId": 244628,
+    "firstAired": "2025-03-13T00:00:00Z",
+    "lastAired": "2025-03-13T00:00:00Z",
+    "seriesType": "standard",
+    "cleanTitle": "longbrightriver",
+    "imdbId": "tt8332798",
+    "titleSlug": "long-bright-river",
+    "rootFolderPath": "\\\\192.168.0.91\\10 Audio_Video\\02 tv shows",
+    "genres": [
+      "Crime",
+      "Mini-Series",
+      "Thriller"
+    ],
+    "tags": [
+      28
+    ],
+    "added": "2025-02-12T00:08:09Z",
+    "ratings": {
+      "votes": 0,
+      "value": 0
+    },
+    "statistics": {
+      "seasonCount": 1,
+      "episodeFileCount": 0,
+      "episodeCount": 0,
+      "totalEpisodeCount": 8,
+      "sizeOnDisk": 0,
+      "releaseGroups": [],
+      "percentOfEpisodes": 0
+    },
+    "languageProfileId": 1,
+    "id": 476
+  },
+  {
+    "title": "Zero Day",
+    "alternateTitles": [],
+    "sortTitle": "zero day",
+    "status": "upcoming",
+    "ended": false,
+    "overview": "A former U.S. President is called out of retirement to find the source of a deadly cyberattack, only to discover a vast web of lies and conspiracies.",
+    "nextAiring": "2025-02-20T08:00:00Z",
+    "network": "Netflix",
+    "airTime": "03:00",
+    "images": [
+      {
+        "coverType": "banner",
+        "url": "/MediaCover/477/banner.jpg?lastWrite=638749157550112098",
+        "remoteUrl": "https://artworks.thetvdb.com/banners/v4/series/431842/banners/6784595a70689.jpg"
+      },
+      {
+        "coverType": "poster",
+        "url": "/MediaCover/477/poster.jpg?lastWrite=638749157551192144",
+        "remoteUrl": "https://artworks.thetvdb.com/banners/v4/series/431842/posters/6784593db4c84.jpg"
+      },
+      {
+        "coverType": "fanart",
+        "url": "/MediaCover/477/fanart.jpg?lastWrite=638749157551861939",
+        "remoteUrl": "https://artworks.thetvdb.com/banners/v4/series/431842/backgrounds/6769a62ebff1b.jpg"
+      }
+    ],
+    "originalLanguage": {
+      "id": 1,
+      "name": "English"
+    },
+    "seasons": [
+      {
+        "seasonNumber": 1,
+        "monitored": true,
+        "statistics": {
+          "nextAiring": "2025-02-20T08:00:00Z",
+          "episodeFileCount": 0,
+          "episodeCount": 0,
+          "totalEpisodeCount": 6,
+          "sizeOnDisk": 0,
+          "releaseGroups": [],
+          "percentOfEpisodes": 0
+        }
+      }
+    ],
+    "year": 2025,
+    "path": "\\\\192.168.0.91\\10 Audio_Video\\02 tv shows\\Zero Day (2025) {tvdb-431842}",
+    "qualityProfileId": 7,
+    "seasonFolder": true,
+    "monitored": true,
+    "monitorNewItems": "all",
+    "useSceneNumbering": false,
+    "runtime": 0,
+    "tvdbId": 431842,
+    "tvRageId": 0,
+    "tvMazeId": 65491,
+    "tmdbId": 216082,
+    "firstAired": "2025-02-20T00:00:00Z",
+    "lastAired": "2025-02-20T00:00:00Z",
+    "seriesType": "standard",
+    "cleanTitle": "zeroday",
+    "imdbId": "tt23872886",
+    "titleSlug": "zero-day",
+    "rootFolderPath": "\\\\192.168.0.91\\10 Audio_Video\\02 tv shows",
+    "genres": [
+      "Drama",
+      "Mini-Series",
+      "Thriller"
+    ],
+    "tags": [
+      28
+    ],
+    "added": "2025-02-12T00:09:14Z",
+    "ratings": {
+      "votes": 0,
+      "value": 0
+    },
+    "statistics": {
+      "seasonCount": 1,
+      "episodeFileCount": 0,
+      "episodeCount": 0,
+      "totalEpisodeCount": 6,
+      "sizeOnDisk": 0,
+      "releaseGroups": [],
+      "percentOfEpisodes": 0
+    },
+    "languageProfileId": 1,
+    "id": 477
+  },
+  {
+    "title": "Dune: Prophecy",
+    "alternateTitles": [
+      {
+        "title": "Dune: La profecia",
+        "seasonNumber": -1
+      },
+      {
+        "title": "Dune La profec\u00EDa (2024)",
+        "seasonNumber": -1
+      },
+      {
+        "title": "Diuna: Proroctwo / Dune: Prophecy",
+        "seasonNumber": -1
+      }
+    ],
+    "sortTitle": "dune prophecy",
+    "status": "continuing",
+    "ended": false,
+    "overview": "10,000 years before the ascension of Paul Atreides, Dune: Prophecy follows two Harkonnen sisters as they combat forces that threaten the future of humankind and establish the fabled sect that will become known as the Bene Gesserit.",
+    "network": "HBO",
+    "airTime": "21:00",
+    "images": [
+      {
+        "coverType": "banner",
+        "url": "/MediaCover/478/banner.jpg?lastWrite=638749195335441247",
+        "remoteUrl": "https://artworks.thetvdb.com/banners/v4/series/367118/banners/671318de0df2b.jpg"
+      },
+      {
+        "coverType": "poster",
+        "url": "/MediaCover/478/poster.jpg?lastWrite=638749195336101242",
+        "remoteUrl": "https://artworks.thetvdb.com/banners/v4/series/367118/posters/673bd923f1637.jpg"
+      },
+      {
+        "coverType": "fanart",
+        "url": "/MediaCover/478/fanart.jpg?lastWrite=638749195337021260",
+        "remoteUrl": "https://artworks.thetvdb.com/banners/v4/series/367118/backgrounds/6701f114a4322.jpg"
+      },
+      {
+        "coverType": "clearlogo",
+        "url": "/MediaCover/478/clearlogo.png?lastWrite=638749195337734440",
+        "remoteUrl": "https://artworks.thetvdb.com/banners/v4/series/367118/clearlogo/67132acbb0cb0.png"
+      }
+    ],
+    "originalLanguage": {
+      "id": 1,
+      "name": "English"
+    },
+    "seasons": [
+      {
+        "seasonNumber": 0,
+        "monitored": false,
+        "statistics": {
+          "episodeFileCount": 0,
+          "episodeCount": 0,
+          "totalEpisodeCount": 6,
+          "sizeOnDisk": 0,
+          "releaseGroups": [],
+          "percentOfEpisodes": 0
+        }
+      },
+      {
+        "seasonNumber": 1,
+        "monitored": true,
+        "statistics": {
+          "episodeFileCount": 6,
+          "episodeCount": 6,
+          "totalEpisodeCount": 6,
+          "sizeOnDisk": 3154729475,
+          "releaseGroups": [
+            "NTb",
+            "SKYFiRE",
+            "Z-B"
+          ],
+          "percentOfEpisodes": 100
+        }
+      }
+    ],
+    "year": 2024,
+    "path": "\\\\192.168.0.91\\10 Audio_Video\\02 tv shows\\Dune - Prophecy (2024) {tvdb-367118}",
+    "qualityProfileId": 7,
+    "seasonFolder": true,
+    "monitored": true,
+    "monitorNewItems": "all",
+    "useSceneNumbering": false,
+    "runtime": 65,
+    "tvdbId": 367118,
+    "tvRageId": 0,
+    "tvMazeId": 42846,
+    "tmdbId": 90228,
+    "firstAired": "2024-11-17T00:00:00Z",
+    "lastAired": "2024-12-22T00:00:00Z",
+    "seriesType": "standard",
+    "cleanTitle": "duneprophecy",
+    "imdbId": "tt10466872",
+    "titleSlug": "dune-prophecy",
+    "rootFolderPath": "\\\\192.168.0.91\\10 Audio_Video\\02 tv shows",
+    "certification": "TV-MA",
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Fantasy",
+      "Science Fiction"
+    ],
+    "tags": [
+      28
+    ],
+    "added": "2025-02-12T01:12:13Z",
+    "ratings": {
+      "votes": 0,
+      "value": 0
+    },
+    "statistics": {
+      "seasonCount": 1,
+      "episodeFileCount": 6,
+      "episodeCount": 6,
+      "totalEpisodeCount": 12,
+      "sizeOnDisk": 3154729475,
+      "releaseGroups": [
+        "NTb",
+        "SKYFiRE",
+        "Z-B"
+      ],
+      "percentOfEpisodes": 100
+    },
+    "languageProfileId": 1,
+    "id": 478
   }
 ]
