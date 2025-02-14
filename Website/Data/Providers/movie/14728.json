@@ -1,0 +1,24 @@
+{
+  "id": 14728,
+  "results": {
+    "BE": {
+      "link": "https://www.themoviedb.org/movie/14728-the-librarian-the-curse-of-the-judas-chalice/watch?locale=BE",
+      "flatrate": [
+        {
+          "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+          "provider_id": 119,
+          "provider_name": "Amazon Prime Video",
+          "display_priority": 2
+        }
+      ],
+      "ads": [
+        {
+          "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+          "provider_id": 35,
+          "provider_name": "Rakuten TV",
+          "display_priority": 10
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "id": 582,
+  "results": {
+    "BE": {
+      "link": "https://www.themoviedb.org/movie/582-das-leben-der-anderen/watch?locale=BE",
+      "buy": [
+        {
+          "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+          "provider_id": 2,
+          "provider_name": "Apple TV",
+          "display_priority": 6
+        },
+        {
+          "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+          "provider_id": 3,
+          "provider_name": "Google Play Movies",
+          "display_priority": 7
+        },
+        {
+          "logo_path": "/jzWBemDX69VRYhudQA44IESMxQ1.jpg",
+          "provider_id": 389,
+          "provider_name": "Sooner",
+          "display_priority": 17
+        },
+        {
+          "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+          "provider_id": 310,
+          "provider_name": "LaCinetek",
+          "display_priority": 18
+        },
+        {
+          "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+          "provider_id": 10,
+          "provider_name": "Amazon Video",
+          "display_priority": 47
+        }
+      ],
+      "free": [
+        {
+          "logo_path": "/zXu75uIAMgdblYvFFPzoIHmQhxa.jpg",
+          "provider_id": 542,
+          "provider_name": "filmfriend",
+          "display_priority": 55
+        }
+      ],
+      "flatrate": [
+        {
+          "logo_path": "/acANFKCTLQuvDPjJAb5SnmzJaT6.jpg",
+          "provider_id": 311,
+          "provider_name": "Be TV Go",
+          "display_priority": 4
+        },
+        {
+          "logo_path": "/jzWBemDX69VRYhudQA44IESMxQ1.jpg",
+          "provider_id": 389,
+          "provider_name": "Sooner",
+          "display_priority": 17
+        }
+      ],
+      "rent": [
+        {
+          "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+          "provider_id": 2,
+          "provider_name": "Apple TV",
+          "display_priority": 6
+        },
+        {
+          "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+          "provider_id": 3,
+          "provider_name": "Google Play Movies",
+          "display_priority": 7
+        },
+        {
+          "logo_path": "/jzWBemDX69VRYhudQA44IESMxQ1.jpg",
+          "provider_id": 389,
+          "provider_name": "Sooner",
+          "display_priority": 17
+        },
+        {
+          "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+          "provider_id": 310,
+          "provider_name": "LaCinetek",
+          "display_priority": 18
+        },
+        {
+          "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+          "provider_id": 10,
+          "provider_name": "Amazon Video",
+          "display_priority": 47
+        }
+      ]
+    }
+  }
+}

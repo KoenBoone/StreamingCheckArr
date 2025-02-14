@@ -1,0 +1,16 @@
+{
+  "id": 144616,
+  "results": {
+    "BE": {
+      "link": "https://www.themoviedb.org/movie/144616-sofia-the-first-once-upon-a-princess/watch?locale=BE",
+      "buy": [
+        {
+          "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+          "provider_id": 2,
+          "provider_name": "Apple TV",
+          "display_priority": 6
+        }
+      ]
+    }
+  }
+}

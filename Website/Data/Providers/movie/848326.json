@@ -1,0 +1,16 @@
+{
+  "id": 848326,
+  "results": {
+    "BE": {
+      "link": "https://www.themoviedb.org/movie/848326-rebel-moon-part-one-a-child-of-fire/watch?locale=BE",
+      "flatrate": [
+        {
+          "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+          "provider_id": 8,
+          "provider_name": "Netflix",
+          "display_priority": 1
+        }
+      ]
+    }
+  }
+}

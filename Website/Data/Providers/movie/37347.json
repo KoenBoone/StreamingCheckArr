@@ -1,0 +1,16 @@
+{
+  "id": 37347,
+  "results": {
+    "BE": {
+      "link": "https://www.themoviedb.org/movie/37347-fort-apache/watch?locale=BE",
+      "buy": [
+        {
+          "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+          "provider_id": 10,
+          "provider_name": "Amazon Video",
+          "display_priority": 47
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": 144,
+  "results": {
+    "BE": {
+      "link": "https://www.themoviedb.org/movie/144-der-himmel-uber-berlin/watch?locale=BE",
+      "rent": [
+        {
+          "logo_path": "/jzWBemDX69VRYhudQA44IESMxQ1.jpg",
+          "provider_id": 389,
+          "provider_name": "Sooner",
+          "display_priority": 17
+        }
+      ],
+      "flatrate": [
+        {
+          "logo_path": "/jzWBemDX69VRYhudQA44IESMxQ1.jpg",
+          "provider_id": 389,
+          "provider_name": "Sooner",
+          "display_priority": 17
+        }
+      ]
+    }
+  }
+}

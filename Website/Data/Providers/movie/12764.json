@@ -1,0 +1,44 @@
+{
+  "id": 12764,
+  "results": {
+    "BE": {
+      "link": "https://www.themoviedb.org/movie/12764-missing-in-action-2-the-beginning/watch?locale=BE",
+      "rent": [
+        {
+          "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+          "provider_id": 2,
+          "provider_name": "Apple TV",
+          "display_priority": 6
+        },
+        {
+          "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+          "provider_id": 10,
+          "provider_name": "Amazon Video",
+          "display_priority": 47
+        }
+      ],
+      "buy": [
+        {
+          "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+          "provider_id": 2,
+          "provider_name": "Apple TV",
+          "display_priority": 6
+        },
+        {
+          "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+          "provider_id": 10,
+          "provider_name": "Amazon Video",
+          "display_priority": 47
+        }
+      ],
+      "flatrate": [
+        {
+          "logo_path": "/efu1Cqc63XrPBoreYnf2mn0Nizj.jpg",
+          "provider_id": 2141,
+          "provider_name": "MGM Plus Amazon Channel",
+          "display_priority": 64
+        }
+      ]
+    }
+  }
+}

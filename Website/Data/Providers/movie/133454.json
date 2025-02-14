@@ -1,0 +1,16 @@
+{
+  "id": 133454,
+  "results": {
+    "BE": {
+      "link": "https://www.themoviedb.org/movie/133454-super-cyclone/watch?locale=BE",
+      "flatrate": [
+        {
+          "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+          "provider_id": 119,
+          "provider_name": "Amazon Prime Video",
+          "display_priority": 2
+        }
+      ]
+    }
+  }
+}

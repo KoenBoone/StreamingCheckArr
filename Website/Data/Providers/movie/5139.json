@@ -1,0 +1,30 @@
+{
+  "id": 5139,
+  "results": {
+    "BE": {
+      "link": "https://www.themoviedb.org/movie/5139-le-renard-et-l-enfant/watch?locale=BE",
+      "flatrate": [
+        {
+          "logo_path": "/jzWBemDX69VRYhudQA44IESMxQ1.jpg",
+          "provider_id": 389,
+          "provider_name": "Sooner",
+          "display_priority": 17
+        },
+        {
+          "logo_path": "/6vchFMhgi7jhyXyKBoutzwMmM5b.jpg",
+          "provider_id": 639,
+          "provider_name": "CineMember",
+          "display_priority": 28
+        }
+      ],
+      "rent": [
+        {
+          "logo_path": "/jzWBemDX69VRYhudQA44IESMxQ1.jpg",
+          "provider_id": 389,
+          "provider_name": "Sooner",
+          "display_priority": 17
+        }
+      ]
+    }
+  }
+}

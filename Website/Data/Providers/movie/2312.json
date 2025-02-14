@@ -1,0 +1,44 @@
+{
+  "id": 2312,
+  "results": {
+    "BE": {
+      "link": "https://www.themoviedb.org/movie/2312-in-the-name-of-the-king-a-dungeon-siege-tale/watch?locale=BE",
+      "buy": [
+        {
+          "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+          "provider_id": 2,
+          "provider_name": "Apple TV",
+          "display_priority": 6
+        },
+        {
+          "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+          "provider_id": 3,
+          "provider_name": "Google Play Movies",
+          "display_priority": 7
+        }
+      ],
+      "flatrate": [
+        {
+          "logo_path": "/kwftIxtjuCAROIcdd53UEjzSmca.jpg",
+          "provider_id": 1857,
+          "provider_name": "Telenet",
+          "display_priority": 34
+        }
+      ],
+      "rent": [
+        {
+          "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+          "provider_id": 2,
+          "provider_name": "Apple TV",
+          "display_priority": 6
+        },
+        {
+          "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+          "provider_id": 3,
+          "provider_name": "Google Play Movies",
+          "display_priority": 7
+        }
+      ]
+    }
+  }
+}

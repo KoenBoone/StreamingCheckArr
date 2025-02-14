@@ -1,0 +1,16 @@
+{
+  "id": 14576,
+  "results": {
+    "BE": {
+      "link": "https://www.themoviedb.org/movie/14576-shade/watch?locale=BE",
+      "ads": [
+        {
+          "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+          "provider_id": 35,
+          "provider_name": "Rakuten TV",
+          "display_priority": 10
+        }
+      ]
+    }
+  }
+}

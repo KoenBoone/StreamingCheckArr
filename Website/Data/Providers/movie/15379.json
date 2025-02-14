@@ -1,0 +1,44 @@
+{
+  "id": 15379,
+  "results": {
+    "BE": {
+      "link": "https://www.themoviedb.org/movie/15379-missing-in-action/watch?locale=BE",
+      "flatrate": [
+        {
+          "logo_path": "/efu1Cqc63XrPBoreYnf2mn0Nizj.jpg",
+          "provider_id": 2141,
+          "provider_name": "MGM Plus Amazon Channel",
+          "display_priority": 64
+        }
+      ],
+      "rent": [
+        {
+          "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+          "provider_id": 2,
+          "provider_name": "Apple TV",
+          "display_priority": 6
+        },
+        {
+          "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+          "provider_id": 10,
+          "provider_name": "Amazon Video",
+          "display_priority": 47
+        }
+      ],
+      "buy": [
+        {
+          "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+          "provider_id": 2,
+          "provider_name": "Apple TV",
+          "display_priority": 6
+        },
+        {
+          "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+          "provider_id": 10,
+          "provider_name": "Amazon Video",
+          "display_priority": 47
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": 196830,
+  "results": {
+    "BE": {
+      "link": "https://www.themoviedb.org/movie/196830-stranded/watch?locale=BE",
+      "buy": [
+        {
+          "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+          "provider_id": 10,
+          "provider_name": "Amazon Video",
+          "display_priority": 47
+        }
+      ],
+      "rent": [
+        {
+          "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+          "provider_id": 10,
+          "provider_name": "Amazon Video",
+          "display_priority": 47
+        }
+      ],
+      "free": [
+        {
+          "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+          "provider_id": 538,
+          "provider_name": "Plex",
+          "display_priority": 62
+        }
+      ],
+      "ads": [
+        {
+          "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+          "provider_id": 35,
+          "provider_name": "Rakuten TV",
+          "display_priority": 10
+        }
+      ]
+    }
+  }
+}

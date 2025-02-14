@@ -1,0 +1,16 @@
+{
+  "id": 46562,
+  "results": {
+    "BE": {
+      "link": "https://www.themoviedb.org/movie/46562-the-last-rites-of-ransom-pride/watch?locale=BE",
+      "flatrate": [
+        {
+          "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+          "provider_id": 119,
+          "provider_name": "Amazon Prime Video",
+          "display_priority": 2
+        }
+      ]
+    }
+  }
+}

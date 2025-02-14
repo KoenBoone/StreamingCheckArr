@@ -1,0 +1,24 @@
+{
+  "id": 10743,
+  "results": {
+    "BE": {
+      "link": "https://www.themoviedb.org/movie/10743-confidence/watch?locale=BE",
+      "flatrate": [
+        {
+          "logo_path": "/jzWBemDX69VRYhudQA44IESMxQ1.jpg",
+          "provider_id": 389,
+          "provider_name": "Sooner",
+          "display_priority": 17
+        }
+      ],
+      "rent": [
+        {
+          "logo_path": "/jzWBemDX69VRYhudQA44IESMxQ1.jpg",
+          "provider_id": 389,
+          "provider_name": "Sooner",
+          "display_priority": 17
+        }
+      ]
+    }
+  }
+}

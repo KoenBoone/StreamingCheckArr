@@ -1,0 +1,56 @@
+{
+  "id": 3291,
+  "results": {
+    "BE": {
+      "link": "https://www.themoviedb.org/movie/3291-good-night-and-good-luck/watch?locale=BE",
+      "buy": [
+        {
+          "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+          "provider_id": 2,
+          "provider_name": "Apple TV",
+          "display_priority": 6
+        },
+        {
+          "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+          "provider_id": 3,
+          "provider_name": "Google Play Movies",
+          "display_priority": 7
+        }
+      ],
+      "flatrate": [
+        {
+          "logo_path": "/jzWBemDX69VRYhudQA44IESMxQ1.jpg",
+          "provider_id": 389,
+          "provider_name": "Sooner",
+          "display_priority": 17
+        },
+        {
+          "logo_path": "/6vchFMhgi7jhyXyKBoutzwMmM5b.jpg",
+          "provider_id": 639,
+          "provider_name": "CineMember",
+          "display_priority": 28
+        }
+      ],
+      "rent": [
+        {
+          "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+          "provider_id": 2,
+          "provider_name": "Apple TV",
+          "display_priority": 6
+        },
+        {
+          "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+          "provider_id": 3,
+          "provider_name": "Google Play Movies",
+          "display_priority": 7
+        },
+        {
+          "logo_path": "/jzWBemDX69VRYhudQA44IESMxQ1.jpg",
+          "provider_id": 389,
+          "provider_name": "Sooner",
+          "display_priority": 17
+        }
+      ]
+    }
+  }
+}

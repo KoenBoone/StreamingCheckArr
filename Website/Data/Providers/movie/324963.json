@@ -1,0 +1,22 @@
+{
+  "id": 324963,
+  "results": {
+    "BE": {
+      "link": "https://www.themoviedb.org/movie/324963-monster-high-haunted/watch?locale=BE",
+      "buy": [
+        {
+          "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+          "provider_id": 3,
+          "provider_name": "Google Play Movies",
+          "display_priority": 7
+        },
+        {
+          "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+          "provider_id": 35,
+          "provider_name": "Rakuten TV",
+          "display_priority": 10
+        }
+      ]
+    }
+  }
+}

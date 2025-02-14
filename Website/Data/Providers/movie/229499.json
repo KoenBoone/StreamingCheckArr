@@ -1,0 +1,24 @@
+{
+  "id": 229499,
+  "results": {
+    "BE": {
+      "link": "https://www.themoviedb.org/movie/229499-de-club-van-sinterklaas-het-geheim-van-de-speelgoeddokter/watch?locale=BE",
+      "rent": [
+        {
+          "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+          "provider_id": 2,
+          "provider_name": "Apple TV",
+          "display_priority": 6
+        }
+      ],
+      "buy": [
+        {
+          "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+          "provider_id": 2,
+          "provider_name": "Apple TV",
+          "display_priority": 6
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": 390054,
+  "results": {
+    "BE": {
+      "link": "https://www.themoviedb.org/movie/390054-sand-castle/watch?locale=BE",
+      "flatrate": [
+        {
+          "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+          "provider_id": 8,
+          "provider_name": "Netflix",
+          "display_priority": 1
+        }
+      ]
+    }
+  }
+}

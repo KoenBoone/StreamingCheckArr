@@ -1,0 +1,32 @@
+{
+  "id": 43417,
+  "results": {
+    "BE": {
+      "link": "https://www.themoviedb.org/movie/43417-the-magnificent-seven-ride/watch?locale=BE",
+      "rent": [
+        {
+          "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+          "provider_id": 10,
+          "provider_name": "Amazon Video",
+          "display_priority": 47
+        }
+      ],
+      "flatrate": [
+        {
+          "logo_path": "/efu1Cqc63XrPBoreYnf2mn0Nizj.jpg",
+          "provider_id": 2141,
+          "provider_name": "MGM Plus Amazon Channel",
+          "display_priority": 64
+        }
+      ],
+      "buy": [
+        {
+          "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+          "provider_id": 10,
+          "provider_name": "Amazon Video",
+          "display_priority": 47
+        }
+      ]
+    }
+  }
+}

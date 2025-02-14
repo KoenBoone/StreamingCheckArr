@@ -18,17 +18,6 @@ namespace StreamingCheckArr.Website.Controllers
             return View(series);
         }
 
-        //Get the streaming providers for a series
-        public IActionResult GetStreamers(int tmdbID)
-        {
-            //get the streaming providers for the series
-            tmdbClient tmdb = new tmdbClient();
-            _ = tmdb.getStreaming("tv", tmdbID, true).Result;
-
-            //redirect to the series page
-            return RedirectToAction("Index", new{getNew = false});
-        }
-
         //get the streaming providers for all series where the tmdbid is not 0
         //WARNING: do not abuse this!!!!
         public IActionResult GetStreamersAll()
@@ -57,7 +46,7 @@ namespace StreamingCheckArr.Website.Controllers
             tmdbClient tmdb = new tmdbClient();
             _ = tmdb.getStreaming("tv", tmdbID, true).Result;
 
-            return ViewComponent("Streamers", new { tmdbID });
+            return ViewComponent("Streamers", new { tmdbID, movieOrSeries = "tv" });
         }
     }
 }

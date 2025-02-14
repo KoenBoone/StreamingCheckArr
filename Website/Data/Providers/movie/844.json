@@ -1,0 +1,22 @@
+{
+  "id": 844,
+  "results": {
+    "BE": {
+      "link": "https://www.themoviedb.org/movie/844-2046/watch?locale=BE",
+      "flatrate": [
+        {
+          "logo_path": "/fj9Y8iIMFUC6952HwxbGixTQPb7.jpg",
+          "provider_id": 11,
+          "provider_name": "MUBI",
+          "display_priority": 11
+        },
+        {
+          "logo_path": "/6vchFMhgi7jhyXyKBoutzwMmM5b.jpg",
+          "provider_id": 639,
+          "provider_name": "CineMember",
+          "display_priority": 28
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": 74658,
+  "results": {
+    "BE": {
+      "link": "https://www.themoviedb.org/movie/74658-winx-club-magica-avventura/watch?locale=BE",
+      "buy": [
+        {
+          "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+          "provider_id": 2,
+          "provider_name": "Apple TV",
+          "display_priority": 6
+        }
+      ],
+      "rent": [
+        {
+          "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+          "provider_id": 2,
+          "provider_name": "Apple TV",
+          "display_priority": 6
+        }
+      ]
+    }
+  }
+}

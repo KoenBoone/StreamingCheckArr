@@ -1,0 +1,24 @@
+{
+  "id": 62547,
+  "results": {
+    "BE": {
+      "link": "https://www.themoviedb.org/movie/62547-fanfan-la-tulipe/watch?locale=BE",
+      "rent": [
+        {
+          "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+          "provider_id": 310,
+          "provider_name": "LaCinetek",
+          "display_priority": 18
+        }
+      ],
+      "buy": [
+        {
+          "logo_path": "/1syoSwH2yIskHUqeOiK9re8AMJC.jpg",
+          "provider_id": 310,
+          "provider_name": "LaCinetek",
+          "display_priority": 18
+        }
+      ]
+    }
+  }
+}

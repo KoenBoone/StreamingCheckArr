@@ -1,0 +1,16 @@
+{
+  "id": 1984,
+  "results": {
+    "BE": {
+      "link": "https://www.themoviedb.org/movie/1984-1984/watch?locale=BE",
+      "free": [
+        {
+          "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+          "provider_id": 538,
+          "provider_name": "Plex",
+          "display_priority": 62
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": 1427,
+  "results": {
+    "BE": {
+      "link": "https://www.themoviedb.org/movie/1427-perfume-the-story-of-a-murderer/watch?locale=BE",
+      "flatrate": [
+        {
+          "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+          "provider_id": 119,
+          "provider_name": "Amazon Prime Video",
+          "display_priority": 2
+        }
+      ],
+      "buy": [
+        {
+          "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+          "provider_id": 2,
+          "provider_name": "Apple TV",
+          "display_priority": 6
+        }
+      ]
+    }
+  }
+}

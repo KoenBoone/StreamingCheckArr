@@ -68,7 +68,7 @@
                     </td>
                     <td>
                         <div id="@streamingInfoDiv">
-                                @await (Component.InvokeAsync<StreamersViewComponent>(new { tmdbID = item.tmdbId }))
+                            @await (Component.InvokeAsync<StreamersViewComponent>(new { tmdbID = item.tmdbId, movieOrSeries = "tv" }))
                         </div>
                     </td>
                     <td>

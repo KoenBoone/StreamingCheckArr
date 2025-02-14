@@ -1,0 +1,16 @@
+{
+  "id": 1029575,
+  "results": {
+    "BE": {
+      "link": "https://www.themoviedb.org/movie/1029575-the-family-plan/watch?locale=BE",
+      "flatrate": [
+        {
+          "logo_path": "/2E03IAZsX4ZaUqM7tXlctEPMGWS.jpg",
+          "provider_id": 350,
+          "provider_name": "Apple TV Plus",
+          "display_priority": 9
+        }
+      ]
+    }
+  }
+}

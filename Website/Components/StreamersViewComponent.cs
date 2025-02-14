@@ -8,7 +8,7 @@ namespace StreamingCheckArr.Website.Components
     [ViewComponent(Name = "Streamers")]
     public class StreamersViewComponent : ViewComponent
     {
-        public IViewComponentResult Invoke(int tmdbID)
+        public IViewComponentResult Invoke(int tmdbID, string movieOrSeries)
         {
             configParameters cp = new configParameters();
             ViewBag.tmdbID = tmdbID;
@@ -16,8 +16,8 @@ namespace StreamingCheckArr.Website.Components
             string localLogoPath = "/Data/Providers/Logos/";
             List<string> logos = new List<string>();
 
-            //read the json file in Data/Providers/tv/{tmdbID}.json (if it exists)
-            string jsonFile = "Data/Providers/tv/" + tmdbID + ".json";
+            //read the json file in Data/Providers/<movieOrSeries>/{tmdbID}.json (if it exists)
+            string jsonFile = "Data/Providers/" + movieOrSeries + "/" + tmdbID + ".json";
             if (System.IO.File.Exists(jsonFile))
             {
                 //get the date the file was last modified

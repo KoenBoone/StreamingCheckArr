@@ -1,0 +1,16 @@
+{
+  "id": 37826,
+  "results": {
+    "BE": {
+      "link": "https://www.themoviedb.org/movie/37826-bruce-springsteen-the-e-street-band-live-in-new-york-city/watch?locale=BE",
+      "buy": [
+        {
+          "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+          "provider_id": 2,
+          "provider_name": "Apple TV",
+          "display_priority": 6
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": 5915,
+  "results": {
+    "BE": {
+      "link": "https://www.themoviedb.org/movie/5915-into-the-wild/watch?locale=BE",
+      "buy": [
+        {
+          "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+          "provider_id": 35,
+          "provider_name": "Rakuten TV",
+          "display_priority": 10
+        }
+      ],
+      "rent": [
+        {
+          "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+          "provider_id": 35,
+          "provider_name": "Rakuten TV",
+          "display_priority": 10
+        }
+      ]
+    }
+  }
+}

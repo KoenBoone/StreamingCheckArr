@@ -1,0 +1,32 @@
+{
+  "id": 11525,
+  "results": {
+    "BE": {
+      "link": "https://www.themoviedb.org/movie/11525-lawnmower-man-2-beyond-cyberspace/watch?locale=BE",
+      "rent": [
+        {
+          "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+          "provider_id": 10,
+          "provider_name": "Amazon Video",
+          "display_priority": 47
+        }
+      ],
+      "free": [
+        {
+          "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+          "provider_id": 538,
+          "provider_name": "Plex",
+          "display_priority": 62
+        }
+      ],
+      "buy": [
+        {
+          "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+          "provider_id": 10,
+          "provider_name": "Amazon Video",
+          "display_priority": 47
+        }
+      ]
+    }
+  }
+}

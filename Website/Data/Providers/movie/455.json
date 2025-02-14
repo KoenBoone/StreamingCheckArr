@@ -1,0 +1,16 @@
+{
+  "id": 455,
+  "results": {
+    "BE": {
+      "link": "https://www.themoviedb.org/movie/455-bend-it-like-beckham/watch?locale=BE",
+      "flatrate": [
+        {
+          "logo_path": "/6vchFMhgi7jhyXyKBoutzwMmM5b.jpg",
+          "provider_id": 639,
+          "provider_name": "CineMember",
+          "display_priority": 28
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": 14823,
+  "results": {
+    "BE": {
+      "link": "https://www.themoviedb.org/movie/14823-london-to-brighton/watch?locale=BE",
+      "flatrate": [
+        {
+          "logo_path": "/6vchFMhgi7jhyXyKBoutzwMmM5b.jpg",
+          "provider_id": 639,
+          "provider_name": "CineMember",
+          "display_priority": 28
+        }
+      ]
+    }
+  }
+}

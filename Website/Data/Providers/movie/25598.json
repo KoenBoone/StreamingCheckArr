@@ -1,0 +1,16 @@
+{
+  "id": 25598,
+  "results": {
+    "BE": {
+      "link": "https://www.themoviedb.org/movie/25598-the-indian-runner/watch?locale=BE",
+      "buy": [
+        {
+          "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+          "provider_id": 2,
+          "provider_name": "Apple TV",
+          "display_priority": 6
+        }
+      ]
+    }
+  }
+}
