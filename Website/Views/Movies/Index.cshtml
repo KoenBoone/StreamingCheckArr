@@ -21,6 +21,9 @@
         <input type="text" id="searchInput" onkeyup="searchMovies()" placeholder="Search for movies..">
         <button type="button" onclick="clearSearch()">Clear search</button>
         <div class="card-tools">
+            <div id="StreamingFilterInfoDiv">
+                @await (Component.InvokeAsync<StreamerFilterViewComponent>(new { type = "movie" }))
+            </div>
         </div>
 
         <script>

@@ -15,13 +15,15 @@
     <a asp-controller="Series" asp-action="GetStreamersAll">Refresh all streaming info (use carefully!)</a>
 </p>
 
-<div class="card">
+<div class="card" style="clear: both;">
     <div class="card-header border-0">
         <!--<h3 class="card-title">Sonarr Series</h3>-->
         <input type="text" id="searchInput" onkeyup="searchSeries()" placeholder="Search for series..">
         <button type="button" onclick="clearSearch()">Clear search</button>
         <div class="card-tools">
-            
+            <div id="StreamingFilterInfoDiv">
+                @await (Component.InvokeAsync<StreamerFilterViewComponent>(new { type = "tv" }))
+            </div>
         </div>
 
         <script>

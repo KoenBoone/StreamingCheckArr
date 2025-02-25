@@ -1,0 +1,32 @@
+{
+  "id": 945937,
+  "results": {
+    "BE": {
+      "link": "https://www.themoviedb.org/movie/945937-fast-charlie/watch?locale=BE",
+      "buy": [
+        {
+          "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+          "provider_id": 35,
+          "provider_name": "Rakuten TV",
+          "display_priority": 10
+        }
+      ],
+      "flatrate": [
+        {
+          "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+          "provider_id": 119,
+          "provider_name": "Amazon Prime Video",
+          "display_priority": 2
+        }
+      ],
+      "rent": [
+        {
+          "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+          "provider_id": 35,
+          "provider_name": "Rakuten TV",
+          "display_priority": 10
+        }
+      ]
+    }
+  }
+}

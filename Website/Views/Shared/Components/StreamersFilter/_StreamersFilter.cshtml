@@ -1,0 +1,12 @@
+﻿@model List<StreamingCheckArr.Core.Models.StreamerFilter>
+
+<div>Filter Providers:</div>
+
+<div>
+    @foreach (var streamer in Model)
+    {
+        <div style="float: left; padding-right: 10px;">
+            <img src="@streamer.LogoPath" width="50px"/>
+        </div>
+    }
+</div>
